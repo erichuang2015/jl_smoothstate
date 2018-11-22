@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jaxx Liberty - jQuery.smoothState.js</title>
+<!--    aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/keyframes.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/pageTransitions.css">
+  </head>
+  <body>
+    <div class="index m-scene" id="main">
+      <div class="m-landing-layout scene_element scene_element--fadein">
+       
+       <nav class="navbar navbar-expand-lg fixed-top navbar-light scene_element scene_element--fadeindown">
+          <a class="navbar-brand" href="/index.html">Jaxx Liberty</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/features.html">Features <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/downloads.html">Downloads</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/community.html">Community</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="m-page">
+          
+          <!--jumbotron home-->
+        <div id="homeBanner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-start min-100 text-left text-secondary bg--home-banner p-5 m-0 scene_element scene_element--fadeinright">
+            <h1 class="site-title font-weight-light mb-4 scene_element scene_element--fadeinright scene_element--delayed">Jaxx Liberty is Here.</h1>
+<!--            https://www.ethos.io/cms/wp-content/uploads/2018/07/CoinProfiles_devices3.png-->
+            <!--download button-->
+<!--
+            <div>
+                <a href="/downloads.html"><button role="button" class="banner-button btn btn-lg btn-outline-dark">Start Now</button>
+                </a>
+            </div>
+           <i class="fa fa-angle-down text-dark pt-3"></i>
+-->
+        </div>
+        <main role="main">
+            <!--main container-->
+            
+            <div role="banner" class="container-fluid p-3 bg-light text-secondary">
+                <div id="sec-1" class="row d-flex min-70 m-4 bg-white rounded shadow-lg">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                        <h2 class="h1 font-weight-bold m-0">Jaxx Liberty is here.</h2>
+                        <p class="pt-2 m-0 text-secondary">One of the most popular blockchain and digital asset platforms.</p>
+                        <button class="btn btn-lg btn-outline-orange mt-3">Learn More</button>
+                    </div>
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center min-50 p-0">
+                        <img src="assets/img/jaxx-iphone-3.png" class="img w-75 m-4 ds" alt="Jaxx Liberty on iPhones" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">
+                    </div>
+                </div><!--end row-->
+                
+                <!--multi platform + download-->
+                <div id="sec-2" class="row d-flex min-70 bg-white m-4 rounded shadow-lg">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg--home-devices min-50 p-4" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center min-50 p-5 o-12">
+                        <h2 class="h1 font-weight-bold m-0">Use & Pair on Multiple Devices.</h2>
+                        <p class="pt-2 m-0 text-secondary">Android, iOS, Mac OS X, Windows, Linux, & Google Chrome.</p>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-lg btn-outline-orange dropdown-toggle mt-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Start Now</button>
+                            <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank" onclick="googleAnalyticsTrigger('Android', 'Home_Section2')">Android</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank">iOS</a>
+                             <div class="dropdown-divider"></div>
+                            <!--chrome extension-->
+                            <a class="dropdown-item" role="button" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')" href="/downloads.html" target="_blank">Desktop</a>
+                            <div class="dropdown-divider"></div>
+                            <!--chrome extension-->
+                            <a class="dropdown-item" role="button" onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank">Chrome</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end row-->
+                
+                <!--features-->
+                <div id="sec-3" class="row d-flex min-50 m-4 rounded shadow-lg m_scene">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-secondary text-center min-70 p-5 o-12 scene_element scene_element--fadeinleft" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                        <h2 class="h1 font-weight-bold m-0">Packed with features.</h2>
+                        <p class="pt-2 m-0">Easy to use, powerful, fast, and free.</p>
+                        <a href="/features.html" class="btn btn-lg btn-outline-orange mt-3">See how it works</a>
+                    </div>
+                    <div class="col-lg-6 bg--home-features scene_element scene_element--fadeinright" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
+                </div><!--end row-->
+                
+                <!--security-->
+                <div id="sec-3" class="row d-flex min-70 m-4 bg--home-security rounded shadow-lg p-3">
+                    <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                        <h2 class="h1 font-weight-bold m-0">Secure. Private. Trusted.</h2>
+                        <p class="pt-2 m-0 text-secondary">More than just a feature. Security is our foundation.</p>
+                        <a class="btn btn-lg btn-outline-orange mt-3" href="/security.html">Learn More</a>
+                    </div>
+                    <div class="offset-lg-5 d-flex flex-column justify-content-center align-items-center"></div>
+                </div><!--end row-->
+                
+                <!--testimonials-->
+                <div id="sec-3" class="row d-flex m-4 rounded shadow-lg">
+                  <div class="col-lg-12 d-flex flex-column justify-content-start align-items-start text-left text-light min-50 bg--home-testimonials p-5 o-12">
+                      <h2 class="site-title font-weight-light" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">What blockchain <span class="d-table"></span>leaders are saying 
+                      </h2>
+                  </div>
+                </div><!--end row-->
+                
+                <!--testimonial content-->
+                
+                <div class="row d-flex justify-content-center aligh-items-center bg-light m-4 p-5 rounded shadow-lg">
+                    <div class="col-xl-3 col-lg-6 p-4">
+                        <i class="fa fa-quote-right p-0 pb-2 fa--stroke fa--stroke-o"></i>
+                        <p>"I look forward to seeing the new Jaxx Liberty and how the broader DigiByte community will use it."</p>
+                        <p  class="h5 font-weight-bold">Josiah Spackman</p>
+                        <footer class="blockquote-footer orange">Ambassador, DigiByte Foundation</footer>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 p-4">
+                        <i class="fa fa-quote-right p-0 pb-2 fa--stroke fa--stroke-o"></i>
+                        <p>"Polymath welcomes the launch of Jaxx Liberty. We chose Jaxx Liberty as our go-to wallet for the POLY token community."</p>
+                        <p class="h5 font-weight-bold">Trevor Koverko</p>
+                        <footer class="blockquote-footer orange">Co-Founder & CEO, Polymath</footer>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 p-4">
+                        <i class="fa fa-quote-right p-0 pb-2 fa--stroke fa--stroke-o"></i>
+                        <p>"We’re very happy to partner with Jaxx, a highly-secure and very easy-to-use wallet that is the first to support RSK"</p>
+                        <p class="h5 font-weight-bold">Diego Gutierrez Zaldivar</p>
+                        <footer class="blockquote-footer orange">CEO & Co-Founder, RSK Labs</footer>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 p-4">
+                        <i class="fa fa-quote-right p-0 pb-2 fa--stroke fa--stroke-o"></i>
+                        <p>“Jaxx is a partner we rely on. We can be sure Jaxx Liberty will serve and support our expanding ecosystem.”</p>
+                        <p class="h5 font-weight-bold">Malcolm CasSelle</p>
+                        <footer class="blockquote-footer orange">President, WAX / CIO, OPSkins</footer>
+                    </div>
+                </div><!--end testimonials-->
+                
+                <!--community-->
+                
+                <div class="row d-flex bg-white m-4 rounded shadow-lg bg--home-testimonials">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-light min-50 p-5 o-12">
+                        <h2 class="h1 font-weight-bold m-0">Our Community</h2>
+                        <p class="pt-2 m-0">Uniting 85+ digital assets and communities.</p>
+                        <button class="btn btn-lg btn-outline-light mt-3">Join Us</button>
+                    </div>
+                    <div class="offset-lg-6"></div>
+                </div><!--end row-->
+                
+                <!--Partners-->
+                
+                <div class="row d-flex bg-white m-4 m-70 rounded shadow-lg">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center min-70">
+                        <img src="/assets/img/Jaxx-Liberty-Partner-Logos-Laptop-Trans/7.png" class="img ds" alt="">
+                    </div>
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary min-50 p-5 o-12">
+                        <h2 class="h1 font-weight-bold m-0">Our Partners</h2>
+                        <p class="pt-2 m-0">Uniting 85+ digital assets and communities.</p>
+                        <button class="btn btn-lg btn-outline-secondary mt-3">Join Us</button>
+                    </div>
+                </div><!--end row-->
+                
+                <!--card grid-->
+               
+               <div class="row d-flex min-50 m-4 rounded">
+               <div class="card-deck">
+                 <div class="card shadow-lg text-secondary">
+                    <img class="card-img-top" src="/assets/img/jaxx-support-banner.jpg" alt="Card image cap">
+                      <div class="card-body text-left p-5">
+                          <h4 class="h3 card-title font-weight-bold">Jaxx Support</h4>
+                          <p class="card-text text-muted">Need help? Our User Success Team is available to answer all of your questions.</p>
+                          <button class="btn btn-lg btn-outline-orange mt-3">Get Help</button>
+                    </div>
+                  </div><!--end card-->
+                  
+                  <div class="card shadow-lg text-secondary">
+                    <img class="card-img-top" src="/assets/img/jaxx-home-banner.jpg" alt="Card image cap">
+                    <div class="card-body text-left p-5">
+                      <h4 class="h3 card-title font-weight-bold">Jaxx Blog</h4>
+                      <p class="card-text">Follow the Jaxx Blog for news and updates about the Jaxx Liberty ecosystem.</p>
+                      <button class="btn btn-lg btn-outline-orange mt-3">Learn More</button>
+                    </div>
+                  </div><!--end card-->
+                  
+                  <div class="card shadow-lg text-secondary">
+                    <img class="card-img-top" src="/assets/img/jaxx-people-2.jpg" alt="Card image cap">
+                    <div class="card-body text-left p-5">
+                      <h4 class="h3 card-title font-weight-bold">About Decentral</h4>
+                      <p class="card-text text-muted">Jaxx Liberty was developed by Anthony Di Iorio, co-founder of Ethereum, and founder and CEO of Decentral Inc.</p>
+                      <button class="btn btn-lg btn-outline-orange mt-3">Find Out</button>
+                    </div>
+                  </div><!--end card-->
+                </div><!--end card deck-->
+                </div><!--end row-->
+                
+                <!-- social-->
+                <div id="sec-5" class="row d-flex text-secondary m-4 shadow-lg">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center bg-light min-50 p-5 o-12">
+                        <h2 class="h1 font-weight-bold m-0">Get Social</h2>
+                        <p class="pt-2 m-0">Join the Jaxx Liberty community today.</p>
+                        <div class="container-fluid">
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-facebook"></i>
+                                </div>
+                                <div class="col-xs-3">
+                                    <i class="fa fa-twitter"></i>
+                                </div>
+                                <div class="col-xs-3">
+                                    <i class="fa fa-instagram"></i>
+                                </div>
+                                <div class="col-xs-3">
+                                    <i class="fa fa-telegram"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg--home-social min-50 p-4">
+                    </div>
+                </div><!--end row-->
+               
+                <!--download-->
+                <div id="sec-2" class="row d-flex text-secondary m-4 rounded shadow-lg">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg--home-download min-50 p-4"></div>
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center bg-light min-50 p-5 o-12">
+                        <h2 class="h1 font-weight-bold m-0">Reclaim Your Liberty</h2>
+                        <p class="pt-2 m-0">Take control of your digital life. Download Jaxx Liberty. It’s 100% free.</p>
+                        <a href="/downloads.html" onclick="googleAnalyticsTrigger('Downloads_Page', 'Features_CTA')">
+                        <button class="btn btn-lg btn-outline-orange my-3">Start Now</button>
+                        </a>
+                    </div>
+                </div><!--end row-->       
+            </div><!--end container-->
+            </main>
+  
+  <!--home footer-->
+        <footer>
+            <div class="container-fluid bg-light">
+                <div class="row d-flex d-flex justify-content-center align-items-end text-secondary bg-light px-3 pt-5">
+                    <div class="col-lg-3 col-md-6 px-4 py-3 skew">
+                        <ul class="list-unstyled w-100">
+                            <li class="h4 font-weight-bold border-bottom pb-3">Jaxx Liberty</li>
+                            <li> <a href="/features.html">Features</a></li>
+                            <li> <a href="/changeLog.html">Changelog</a></li>
+                            <li> <a href="/legal.html">Terms of Service</a></li>
+                            <li> <a href="/thirdparties-current.html">Third-Party Agreements</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 px-4 py-3 skew">
+                        <ul class="list-unstyled w-100">
+                            <li class="h4 font-weight-bold border-bottom pb-3">Company</li>
+                            <li> <a href="/about.html" class="animsition-link">About</a></li>
+                            <li> <a href="/community.html">Community</a></li>
+                            <li> <a href="/careers.html">Careers</a></li>
+                            <li> <a href="https://blog.jaxx.io/">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 px-4 py-3 skew">
+                        <ul class="list-unstyled w-100">
+                            <li class="h4 font-weight-bold border-bottom pb-3">Download</li>
+                            <li><a data-brackets-id='7991' href="https://play.google.com/store/apps/details?id=com.liberty.jaxx">Android</a></li>
+                            <li><a href="https://play.google.com/store/apps/details?id=com.liberty.jaxx">Tablet</a></li>
+                            <li><a href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne">Chrome</a></li>
+                            <li><a href="/downloads.html">Desktop</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 px-4 py-3 skew">
+                        <ul class="list-unstyled w-100">
+                            <li class="h4 font-weight-bold border-bottom pb-3">Connect</li>
+                            <li> <a href="/support.html" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Support</a></li>
+                            <li> <a href="https://www.facebook.com/JaxxWallet" target="_blank">Facebook</a></li>
+                            <li> <a href="https://twitter.com/jaxx_io" target="_blank">Twitter</a> / <a href="https://twitter.com/Jaxx_Support" target="_blank">Twitter Support</a> </li>
+                            <li> <a href="https://www.reddit.com/r/jaxx/" target="_blank">Reddit</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end nest container-->
+            </div>
+            <!--end row-->
+            <!-- copyright + branding-->
+            <div class="row d-flex bg-light">
+                <div class="col-sm-12 d-flex justify-content-center text-center py-3 pt-4 navy">
+                    <p class="font-weight-light"><a href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Home_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/assets/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with love in Canada</p>
+                </div>
+            </div>
+        </footer>
+         
+  
+         
+         
+        </div><!--page-->
+      </div><!--landing layout -- needed?-->
+    </div><!--main wrapper-->
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="assets/js/jquery.smoothState.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
