@@ -1,6 +1,7 @@
-$(document).ready(function() {
-        AOS.init();
-    });
+//add plugin init here
+//$(document).ready(function() {
+//        AOS.init();
+//    });
 
 
 $(function(){
@@ -31,9 +32,9 @@ $(function(){
           }
         },
           //add onAfter --> https://stackoverflow.com/questions/35620499/reinitializing-page-scripts-after-smoothstate-js-page-change
-          onAfter: function() {
-                AOS.init();
-            }
+//          onAfter: function() {
+//                $('.dropdown-toggle').dropdown();
+//            }
       },
       smoothState = $page.smoothState(options).data('smoothState');
 });

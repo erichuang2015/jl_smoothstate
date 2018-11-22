@@ -523,6 +523,28 @@ p {
 	background: url(/assets/img/jaxx-phone-desk.jpg) center;
 	background-size: cover;
 }
+.bg--downloads-mobile {
+	background: url(/assets/img/jaxx-iphone-X-news.jpg) center;
+	background-size: cover;
+}
+.app-store {
+    width: 140px;
+}
+.google-play {
+    width: 155px;
+} 
+.chrome-logo {
+	width: 180px;
+}
+@media (max-width: 375px) {
+ /* downloads page store logos fro iphone 5 */
+.google-play {
+    width: 135px;
+}
+.app-store {
+    width: 122px;
+}
+}
 
 
 

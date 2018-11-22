@@ -16,12 +16,14 @@
   </head>
   <body>
     <div class="index m-scene" id="main">
-      <div class="m-landing-layout scene_element scene_element--fadein">
+      <div class="m-landing-layout">
        
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">Navbar</a>
+       <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">
+              <img class="jaxx-navbar-brand" src="/assets/img/JaxxLiberty_Logo_Grouped.svg" alt="Jaxx Liberty">
+          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+             <img class="jaxx-mobile-menu" src="/assets/img/jaxx-menu-orange.png" alt="Jaxx Liberty Menu">
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -39,40 +41,241 @@
         </nav>
         
         
-        <div class="m-header scene_element scene_element--fadeindown bg-secondary text-light w-100">
-          <h1 class="m-type-display-1 scene_element scene_element--fadeindown">Downloads</h1>
-          <p class="m-type-sub-heading-1 header_intro">To run this demo locally, start a server in the root of this repository. If you have python installed, you can simply run <code>python -m SimpleHTTPServer</code> after you <code>cd</code> into the repo.</p>
-        </div>
-        <div class="m-page">
-          <div class="m-segment scene_element scene_element--fadeinup">
-            <div class="segment_content">
-              <h2 class="m-type-heading-1"><a href="./detail.html">Downloads</a>
-              </h2>
-              <p class="description">Voluptatum doloribus est omnis molestiae sed. Officia sint et repellat dolorum a velit. Ipsam velit explicabo repudiandae qui ratione voluptas repellat exercitationem magni commodi.</p>
+         <!--jumbotron-->      
+        <div id="banner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-secondary bg--downloads-banner min-100 p-5 mb-0 scene_element scene_element--fadeinleft">
+            <div class="row">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center py-5 my-4">
+                    <h1 class="site-title font-weight-light scene_element scene_element--fadeindown scene_element--delayed">Download</h1>
+                    <hr class="w-25 scene_element scene_element--zoomin">
+                    <h3 class="font-weight-light scene_element scene_element--fadeinup">100% free. No signup. 85+ assets supported.</h3>
+
+                        <div class="row pt-4">
+                           <!-- Button dropdown group for desktop platforms -->
+                           <div class="col-xs-6">
+                                <div class="btn-group">
+                                  <button type="button" class="dropdown-toggle btn btn-lg btn-orange mr-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mobile</button>
+                                  <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">iOS</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Android</a>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="btn-group">
+                                  <button type="button" class="dropdown-toggle btn btn-lg btn-orange" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Desktop</button>
+                                  <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#libertyMacOSX">Mac OS X</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#libertyWindows">Windows</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#libertyLinux32">Linux 32-bit</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#libertyLinux64">Linux 64-bit</a>
+                                  </div>
+                                </div>
+                            </div>
+                        </div><!--end button row-->
+                    </div><!--end col-->
+                </div>
             </div>
-          </div>
-          <div class="m-segment scene_element scene_element--fadeinright">
-            <div class="segment_content">
-              <h2 class="m-type-heading-1"><a href="./detail.html">Detail page demo</a>
-              </h2>
-              <p class="description">Voluptatum doloribus est omnis molestiae sed. Officia sint et repellat dolorum a velit. Ipsam velit explicabo repudiandae qui ratione voluptas repellat exercitationem magni commodi.</p>
-            </div>
-          </div>
-          <div class="m-segment scene_element scene_element--fadeindown">
-            <div class="segment_content">
-              <h2 class="m-type-heading-1"><a href="./detail.html">Detail page demo</a>
-              </h2>
-              <p class="description">Voluptatum doloribus est omnis molestiae sed. Officia sint et repellat dolorum a velit. Ipsam velit explicabo repudiandae qui ratione voluptas repellat exercitationem magni <a href="./detail.html#footer">skip to detail pagefooter</a>.</p>
-            </div>
-          </div>
-          <div class="m-highlight m-segment">
-            <div class="segment_content">
-              Developed by <a href="https://twitter.com/tayokoart">Miguel Ángel Pérez</a> and maintained by <a href="https://github.com/miguel-perez/jquery.smoothState.js/graphs/contributors">contributors</a> under the <a href="https://github.com/miguel-perez/jquery.smoothState.js/blob/master/LICENSE.md">MIT License</a>.
-            </div>
-          </div>
+            <main role="main">
+            <!--container-->
+            <div class="container-fluid p-0 pt-1 bg-light text-secondary">
+                <!--download mobile-->
+                <div id="mobile" class="row d-flex m-4 shadow-lg rounded">
+<!--
+                    <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5">
+                        <div class="wrap w-100">
+                            <h2 class="section-title font-weight-light pb-2">Mobile</h2>
+                            <h5 class="font-weight-light border-top border-grey py-4">Put <span class="orange">Jaxx Liberty</span> at your fingertips. Take it anywhere you go. Available now for Android and iOS.</h5>
+                            button nest row
+                            <div class="row pt-3">
+                                jaxx liberty google store
+                                 <div class="col-xs-6 m-0 d-flex justify-content-center mr-1">
+                                    <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Downloads_Mobile')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img title="Play Store Button" class="google-play" src="/assets/img/gooogle-play-2.png" alt="Google Store Button"/></a>
+                                </div>
+                                jaxx liberty itunes
+                                <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img title="iTunes Store Button" class="app-store" src="/assets/img/app-store-button.svg" alt="iTunes Store Button"/></a>
+                            </div>
+                            end button nest row  
+                        </div>
+                        end wrap                
+                    </div>
+-->
+                    <div class="col-lg-12 d-flex flex-column justify-content-start align-items-start text-light min-70 p-0">
+                       <div class="wrap relative z-1 p-5">
+                        <h2 class="section-title font-weight-bold">Mobile</h2>
+                        <h5 class="font-weight-light w-50">Put <span class="orange">Jaxx Liberty</span> at your fingertips. Take it anywhere you go. Available now for Android and iOS.</h5>
+                        <!--button nest row-->
+                            <div class="row pt-3">
+                                <!--jaxx liberty google store-->
+                                 <div class="col-xs-6 m-0 d-flex justify-content-center mr-1">
+                                    <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Downloads_Mobile')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img title="Play Store Button" class="google-play" src="/assets/img/gooogle-play-2.png" alt="Google Store Button"/></a>
+                                </div>
+                                <!--jaxx liberty itunes-->
+                                <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img title="iTunes Store Button" class="app-store" src="/assets/img/app-store-button.svg" alt="iTunes Store Button"/></a>
+                            </div><!--end button nest row-->  
+                        </div>
+                        <!--<img class="img-full w-100 p-0 m-0" src="/assets/img/jaxx-multi-device-2.jpg" alt="Jaxx Liberty Mobile">-->
+                        <img class="img-full absolute z-0 w-100 p-0 m-0" src="/assets/img/jaxx-iphone-X-news.jpg" alt="Jaxx Liberty Mobile">
+                    </div>
+                </div>
+                <!--end mobile row-->
+                
+                <!--download google chrome ext-->
+                <div id="chrome" class="row d-flex min-100 m-4 shadow-lg rounded">
+                    <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left bg-light min-50 p-5">
+                        <h2 class="section-title font-weight-light pb-2">Chrome Extension</h2>
+                        <h5 class="font-weight-light py-4 border-top">Add the Jaxx Liberty Google Chrome extension to your browser.</h5>
+                        <a onclick="googleAnalyticsTrigger('Chrome Extension', 'Downloads_Chrome')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank">
+                        <img class="chrome-logo pt-3" src="/assets/img/jaxx-chrome.png" alt="Add Jaxx Liberty to Google Chrome">
+                        </a>
+                    </div>
+                     <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left bg-white min-50 p-3 o-12">
+                        <img class="absolute z-0 w-100 p-4 ds" src="/assets/img/jaxx-liberty-chrome-trans/10.png" alt="Jaxx Google Chrome">
+                    </div>
+                </div>
+                <!--end chrome ext row-->
+                
+                <!--download desktop + jaxx legacy-->
+                <div id="desktop" class="row d-flex m-4 shadow-lg rounded">
+                    <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5">
+                        <div class="wrap w-100">
+                            <h2 class="section-title font-weight-light pb-3">Desktop</h2>
+                            <h5 class="font-weight-light border-top py-4">Download <span class="orange">Jaxx Liberty</span> now for Mac OS X, Windows, and Linux.</h5>
+                            <!--nested container for modals-->
+                            <div class="container-fluid">
+                                <div class="row pt-3">
+                                   <!-- Button dropdown group for desktop platforms -->
+                                    <div class="btn-group">
+                                      <button type="button" class="dropdown-toggle btn btn-lg btn-dark mr-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download</button>
+                                      <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#libertyMacOSX">Mac OS X</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#libertyWindows">Windows</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#libertyLinux32">Linux 32-bit</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#libertyLinux64">Linux 64-bit</a>
+                                      </div>
+                                    </div>
+
+                                    <!--jaxx liberty linux 32 bit modal-->
+
+                                    <div class="modal fade" id="libertyLinux32" tabindex="-1" role="dialog" aria-labelledby="libertyLinux32" aria-hidden="true">
+                                      <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header bg-light p-0">
+                                            <button type="button" class="close font-weight-light ml-auto mt-2 mr-2" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">X</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body bg-light px-5 pb-5">
+                                                <h3 class="font-weight-light pb-3 mb-3 border-bottom">Jaxx Liberty for Linux 32-bit</h3>
+                                                <h5 class="font-weight-bold">Checksums</h5>
+                                                <p>The checksum below is a simple way for you to double-check the copy of Jaxx you are installing is genuine. You can match the checksum in your instance of Jaxx with the data below.</p>
+                                                <h5 class="font-weight-bold py-4 m-0 border-bottom border-top">Jaxx requires Ubuntu 12.04, Fedora 21, or Debian 8 (or later)</h5>
+                                                <p class="pt-3 font-weight-bold">$ sha1sum com.liberty.jaxx-2.0.6-i386.AppImage</p>
+                                                <p class="word-break">cc2fdbc3706eb8419cbeef4a7113af5fb62f0cab</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                                                <a role="button" class="btn btn-secondary" onclick="googleAnalyticsTrigger('Linux_Modal', 'Downloads_Desktop_Liberty_32')" href="https://github.com/Jaxx-io/JaxxLiberty/releases/download/v2.0.6/com.liberty.jaxx-2.0.6-i386.AppImage">Download</a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div><!--end linux 32 bit modal-->
+                                    
+                                    <!--jaxx liberty linux 64 bit modal-->
+                                    <div class="modal fade" id="libertyLinux64" tabindex="-1" role="dialog" aria-labelledby="libertyLinux64" aria-hidden="true">
+                                      <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header bg-light p-0">
+                                                <button type="button" class="close font-weight-light ml-auto mt-2 mr-2" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">X</span>
+                                                </button>
+                                            </div>
+                                          <div class="modal-body bg-light px-5 pt-0 pb-5">
+                                                <h3 class="font-weight-light pb-3 mb-3 border-bottom">Jaxx Liberty for Linux 64-bit</h3>
+                                                <h5 class="font-weight-bold">Checksums</h5>
+                                                <p>The checksum below is a simple way for you to double-check the copy of Jaxx you are installing is genuine. You can match the checksum in your instance of Jaxx with the data below.</p>
+                                                <h5 class="font-weight-bold py-4 m-0 border-bottom border-top">Jaxx requires Ubuntu 12.04, Fedora 21, or Debian 8 (or later)</h5>
+                                                <p class="pt-3 font-weight-bold">$ sha1sum com.liberty.jaxx-2.0.6-x86_64.AppImage</p>
+                                                <p class="word-break">d01b78183e58d1e9275cb7740445e691a9460f93</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                                                <a role="button" class="btn btn-secondary" onclick="googleAnalyticsTrigger('Linux_Modal', 'Downloads_Desktop_Liberty_64')" href="https://github.com/Jaxx-io/JaxxLiberty/releases/download/v2.0.6/com.liberty.jaxx-2.0.6-x86_64.AppImage">Download</a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div><!--end linux 64 bit modal-->
+                                    
+                                     <!--jaxx liberty Mac modal-->
+                                    <div class="modal fade" id="libertyMacOSX" tabindex="-1" role="dialog" aria-labelledby="libertyMacOSX" aria-hidden="true">
+                                      <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header bg-light p-0">
+                                                <button type="button" class="close font-weight-light ml-auto mt-2 mr-2" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">X</span>
+                                                </button>
+                                            </div>
+                                          <div class="modal-body bg-light px-5 pt-0 pb-5">
+                                                <h3 class="font-weight-light pb-3 mb-3 border-bottom">Jaxx Liberty for Mac OS X</h3>
+                                                <h5 class="font-weight-bold">Checksums</h5>
+                                                <p>The checksum below is a simple way for you to double-check the copy of Jaxx you are installing is genuine. You can match the checksum in your instance of Jaxx with the data below.</p>
+                                                <h5 class="font-weight-bold py-4 m-0 border-bottom border-top">Jaxx requires OS X 10.9 (or later)</h5>
+                                                <p class="py-4 m-0 border-bottom"><b>Note: </b>Depending on your system settings, the system might warn you that "Jaxx can't be opened because it comes from an unidentified developer." You can either change your system settings to allow apps from unknown developers in your "Security & Privacy" settings, or simply right click Jaxx -> Open (as administrator), which will prompt you with a warning.</p>
+                                                <p class="pt-3 font-weight-bold">$ sha1sum com.liberty.jaxx-2.0.6.dmg</p>
+                                                <p class="word-break">05c3621fe1963b4ae1cb07531cb96229b5599e49</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                                                <a role="button" class="btn btn-secondary" onclick="googleAnalyticsTrigger('Mac_Modal', 'Downloads_Desktop_Liberty_Mac')" href="https://github.com/Jaxx-io/JaxxLiberty/releases/download/v2.0.6/com.liberty.jaxx-2.0.6.dmg">Download</a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div><!--end Liberty Mac modal-->
+                                    
+                                 <!--jaxx liberty Windows modal-->
+                                    <div class="modal fade" id="libertyWindows" tabindex="-1" role="dialog" aria-labelledby="libertyWindows" aria-hidden="true">
+                                      <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header bg-light p-0">
+                                                <button type="button" class="close font-weight-light ml-auto mt-2 mr-2" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">X</span>
+                                                </button>
+                                            </div>
+                                          <div class="modal-body bg-light px-5 pt-0 pb-5">
+                                                <h3 class="font-weight-light pb-3 mb-3 border-bottom">Jaxx Liberty for Windows</h3>
+                                                <h5 class="font-weight-bold">Checksums</h5>
+                                                <p>The checksum below is a simple way for you to double-check the copy of Jaxx you are installing is genuine. You can match the checksum in your instance of Jaxx with the data below.</p>
+                                                <h5 class="font-weight-bold py-4 m-0 border-bottom border-top">Jaxx requires Windows 7 (or later)</h5>
+                                                <p class="pt-3 font-weight-bold">$ sha1sum com.liberty.jaxx-setup-2.0.6.exe</p>
+                                                <p class="word-break">0f826f00aa5f34ee0f52e1e9a4bf32a7f169de86</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                                                <a role="button" class="btn btn-secondary" onclick="googleAnalyticsTrigger('Windows_Modal', 'Downloads_Desktop_Liberty_Windows')" href="https://github.com/Jaxx-io/JaxxLiberty/releases/download/v2.0.6/com.liberty.jaxx-setup-2.0.6.exe">Download</a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div><!--end Liberty Windows modal-->
+                                
+                                </div><!--end button row--> 
+                            </div><!--end button nest row--> 
+                        </div><!--end wrap-->
+                    </div><!--end col-->
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-white min-50 p-0 o-12">
+                        <img class="img-full" src="/assets/img/jaxx-laptop-hands.jpg" alt="Jaxx Liberty Desktop">
+                    </div><!--end col-->
+                </div><!--end desktop row-->
+            </div><!--end container-->
+          </main>
+          
         </div>
       </div>
-    </div>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
