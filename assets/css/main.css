@@ -89,7 +89,7 @@ textarea {
 
 html,
 body {
-	font-family: 'Helvetica Neue', 'Oswald', Montserrat, Avenir, Helvetica, sans-serif;
+	font-family: 'Helvetica Neue', Avenir, Helvetica, sans-serif;
 	overflow-x: hidden;
 	width: 100%;
 }
@@ -195,15 +195,8 @@ footer a:hover {
 }
 /* text */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-button,
-.btn {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6, p, button, .btn {
 	font-family: 'Helvetica Neue', Avenir, sans-serif;
 }
 p {
@@ -211,7 +204,6 @@ p {
 	font-weight: 300;
 }
 .site-title {
-	/*    font-size: 10vmin;*/
 	font-size: 5vw;
 	font-size: 8vw;
 	font-size: 10vmin;
@@ -231,9 +223,7 @@ p {
 	line-height: 90%;
 }
 .section-title {
-	font-size: 8vmin;
-	/*    font-size: 6vmin;*/
-	text-transform: uppercase;
+    font-size: 6vmin;
 }
 .section-sub-title {
 	font-size: 6vmin;
@@ -519,18 +509,18 @@ p {
 /*===== Features ======*/
 
 .bg--features-banner {
-    background: url(/img/jaxx-ipad-iphone-macbook.png) center bottom;
+    background: url(/assets/img/jaxx-ipad-iphone-macbook.png) center bottom;
 	background-size: cover;
 }
 .bg--features-1 {
-    background: url(/img/jaxx-ipad-iphone-macbook.png) center;
+    background: url(/assets/img/jaxx-ipad-iphone-macbook.png) center;
 	background-size: cover;
 }
 
 /*===== Downloads ======*/
 
 .bg--downloads-banner {
-	background: url(/img/jaxx-phone-desk.jpg) center;
+	background: url(/assets/img/jaxx-phone-desk.jpg) center;
 	background-size: cover;
 }
 

@@ -35,6 +35,10 @@
   -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s; }
 /* line 37, /Users/miguelperez/Sites/csstricks/source/stylesheets/pageTransitions.css.scss */
+.m-scene .scene_element--zoomin {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn; }
+
 
 /*exit animations*/
 .m-scene.is-exiting .scene_element {

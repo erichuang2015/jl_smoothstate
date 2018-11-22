@@ -9,7 +9,7 @@ $(function(){
       options = {
         debug: true,
         prefetch: true,
-        cacheLength: 2,
+        cacheLength: 10,
         onStart: {
 //          duration: 450, // Duration of our animation
           duration: 1000, // Duration of our animation
