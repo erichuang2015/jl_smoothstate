@@ -448,9 +448,15 @@ p {
 /*===== Home ======*/
 
 .bg--home-banner {
+/*
 	background: url(/img/jaxx-laptop.jpg) center;
 	background: url(/assets/img/jaxx-laptop.jpg) center right;
 	background-size: cover;
+*/
+    background: url(https://www.ethos.io/cms/wp-content/uploads/2018/07/CoinProfiles_devices3.png) center right no-repeat;
+    background-size: contain;
+    margin-right: 20px;
+
 }
 .bg--home-devices {
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-home-banner.jpg) center;
@@ -891,10 +897,13 @@ i {
 .icon {
 	font-size: 50px;
 }
-.fa {
+#home .fa {
 	font-size: 10vmin;
     font-size: 8vmin;
 	padding: 20px 30px;
+}
+#features .fa {
+    font-size: 30px;
 }
 .fa--stroke {
     color: transparent;

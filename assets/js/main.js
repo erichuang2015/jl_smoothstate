@@ -1,6 +1,6 @@
 //add plugin init here
 //$(document).ready(function() {
-//        AOS.init();
+//        $('.dropdown-toggle').dropdown();
 //    });
 
 
@@ -32,9 +32,16 @@ $(function(){
           }
         },
           //add onAfter --> https://stackoverflow.com/questions/35620499/reinitializing-page-scripts-after-smoothstate-js-page-change
-//          onAfter: function() {
+          onAfter: function() {
 //                $('.dropdown-toggle').dropdown();
-//            }
+                $('.carousel').carousel({
+                  interval: 2000
+                })
+            }
       },
       smoothState = $page.smoothState(options).data('smoothState');
 });
+
+$('.carousel').carousel({
+  interval: 2000
+})
