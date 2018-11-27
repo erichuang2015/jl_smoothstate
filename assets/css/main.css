@@ -121,13 +121,25 @@ footer a:hover {
 	min-height: 50vh;
 }
 .min-70 {
-	min-height: 70vh;
+	height: 70vh;
 }
 .min-100 {
 	min-height: 100vh;
 }
 .fs {
 	min-height: 100vh;
+}
+.min-300 {
+    min-height: 300px;
+}
+.min-400 {
+    min-height: 400px;
+}
+.min-500 {
+    min-height: 500px;
+}
+.min-700-lg {
+    min-height: 700px;
 }
 .w-50-sm {
 	width: 50%;
@@ -182,6 +194,8 @@ footer a:hover {
 	border: 1px solid rgb(38, 66, 119);
 	color: rgb(38, 66, 119);
 }
+
+button dropdown 
 /* borders */
 
 .border-navy {
@@ -246,6 +260,17 @@ p {
 
 /* fonts + text effects */
 
+.knockout-home {
+    color: red;
+     -webkit-text-fill-color: transparent;
+     background: -webkit-linear-gradient(transparent, transparent),
+                 url(/assets/img/jaxx-iphone-X-news.jpg) center repeat;
+     background: -o-linear-gradient(transparent, transparent);
+    background-size: cover;
+     -webkit-background-clip: text;
+/*    background: url(/assets/img/jaxx-iphone-X-news.jpg);*/
+}
+
 .line-height {
 	line-height: 80%;
 }
@@ -281,6 +306,10 @@ p {
 	color: transparent;
 	-webkit-text-stroke: 1px turquoise;
 	-webkit-text-stroke: 1px rgba(64, 224, 208, 0.3);
+}
+.hr-big {
+    height: 6px;
+    width: 70px;
 }
 
 /* position */
@@ -448,33 +477,36 @@ p {
 /*===== Home ======*/
 
 .bg--home-banner {
-/*
-	background: url(/img/jaxx-laptop.jpg) center;
-	background: url(/assets/img/jaxx-laptop.jpg) center right;
-	background-size: cover;
-*/
     background: url(https://www.ethos.io/cms/wp-content/uploads/2018/07/CoinProfiles_devices3.png) center right no-repeat;
-    background-size: contain;
-    margin-right: 20px;
-
+    background: url(/assets/img/jaxx-macbook-off-canvas-left.png) center right no-repeat;
+    background: url(/assets/img/jaxx-phone-hand-car.jpg) center left no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/img/jaxx-phone-hand-car.jpg) center left no-repeat;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(/assets/img/jaxx-multi-device-2.jpg) center left no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .bg--home-devices {
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-home-banner.jpg) center;
-	background: url(/assets/img/redesign-img/jaxx-iphone-on-macbook.jpg) center;
+	background: url(/assets/img/jaxx-iphone-on-macbook.jpg) center;
 	background-size: cover;
 }
 .bg--home-features {
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-home-banner.jpg) center;
-	background: url(/assets/img/redesign-img/jaxx-android-girl-hand.png) center;
+	background: url(/assets/img/jaxx-android-girl-hand.png) center;
 	background-size: cover;
 }
 .bg--home-security {
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-home-banner.jpg) center;
-	background: url(/assets/img/redesign-img/jaxx-iphone-macbook-desk-wood.png) center;
-	background: url(/assets/img/redesign-img/jaxx-phone-desk.jpg) center;
+	background: url(/assets/img/jaxx-iphone-macbook-desk-wood.png) center;
+	background: url(/assets/img/jaxx-phone-desk.jpg) center;
 	background-size: cover;
 }
 .bg--home-testimonials {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-testimonials.jpeg) center;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/jaxx-testimonials.jpeg) center;
+	background-size: cover;
+}
+.bg--home-community {
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-support-welcome-redux.jpg) center;
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/jaxx-support-welcome-redux.jpg) center;
 	background-size: cover;
@@ -516,11 +548,39 @@ p {
 
 .bg--features-banner {
     background: url(/assets/img/jaxx-ipad-iphone-macbook.png) center bottom;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/assets/img/jaxx-macbook-iphone-camera-wood.png) center top;
 	background-size: cover;
 }
 .bg--features-1 {
     background: url(/assets/img/jaxx-ipad-iphone-macbook.png) center;
 	background-size: cover;
+}
+
+/*features modal column count*/
+.columns {
+    column-count: 3;
+    column-gap: 10px;
+    padding: 20px 20px 0;
+}
+.columns li {
+    border: 1px dotted lightgrey;
+    border-radius: 5px;
+    -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+    padding: 30px;
+}
+@media (max-width: 992px) {
+    .columns {
+        column-count: 2;
+        column-gap: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .columns {
+        column-count: 1;
+        column-gap: 10px;
+    }
 }
 
 /*===== Downloads ======*/
@@ -530,7 +590,7 @@ p {
 	background-size: cover;
 }
 .bg--downloads-mobile {
-	background: url(/assets/img/jaxx-iphone-X-news.jpg) center;
+	background: url(https://www.ethos.io/cms/wp-content/uploads/2018/07/CoinProfiles_devices3.png) center 30%;
 	background-size: cover;
 }
 .app-store {
@@ -549,14 +609,34 @@ p {
 }
 .app-store {
     width: 122px;
-}
+    }
 }
 
+@media (max-width: 600px) {
+    .min-700-lg {
+        min-height: 500px;
+    }
+}
+
+
+/*===== Legal: Terms ======*/
+
+.bg--terms-banner {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-terms.jpeg) center;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/jaxx-terms.jpeg) center;
+	background-size: cover;
+}
+
+/*===== Legal: 3rd Parties ======*/
+
+.bg-img-banner-thirdparties {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/img/jaxx-people-1.jpeg) center;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/jaxx-people-1.jpeg) center;
+	background-size: cover;
+}
 
 
 /* downloads section bg img */
-
-/* community section bg img -- Photo by Nicholas Green on Unsplash */
 
 .bg-img-partners {
 	background: url(/img/jaxx-partners.jpeg) center;
@@ -790,24 +870,8 @@ p {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/jaxx-changelog.jpg) center;
 	background-size: cover;
 }
-/* legal ======================*/
 
-/* pexels */
 
-.bg-img-banner-legal {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/img/jaxx-terms.jpeg) center;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/jaxx-terms.jpeg) center;
-	background-size: cover;
-}
-/* third parties */
-
-/*Photo by 13on on Unsplash*/
-
-.bg-img-banner-thirdparties {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/img/jaxx-people-1.jpeg) center;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/jaxx-people-1.jpeg) center;
-	background-size: cover;
-}
 /*changelog=======================*/
 
 /* features phone slider ======================*/
@@ -897,7 +961,7 @@ i {
 .icon {
 	font-size: 50px;
 }
-#home .fa {
+#main .fa {
 	font-size: 10vmin;
     font-size: 8vmin;
 	padding: 20px 30px;

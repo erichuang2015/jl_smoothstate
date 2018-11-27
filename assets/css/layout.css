@@ -1,31 +1,30 @@
 /* @mixin respond-to
 ------------------------------------------------------------------- */
 /* line 23, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+/*
 body {
   font-size: 0.75em;
-  background-color: #fff;
-  font-family: 'Helvetica Neue', Avenir, Helvetica sans-serif;
+  background-color: #222;
+  font-family: 'Open Sans', sans-serif;
   color: #eceff1;
   line-height: 1.5; }
+*/
 
 @media screen and (min-width: 500px) {
-  /* line 32, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
   body {
     font-size: 1em; } }
-/* line 38, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+/*
 a {
   color: #4472B9;
   text-decoration: none;
   transition: color 0.15s ease-in; }
-  /* line 42, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
   a:hover {
     color: #3D67A6; }
-  /* line 45, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
   a:active, a:focus {
     color: #222; }
-  /* line 49, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
   a:visited {
     color: #673ab7; }
+*/
 
 /* line 54, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
 code {
