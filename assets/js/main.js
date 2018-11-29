@@ -1,5 +1,8 @@
-//$('#main').smoothState({ blacklist: '.no-smoothState' });
-
+$(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 1000
+    });
+});
 
 $(function(){
   'use strict';
@@ -26,7 +29,28 @@ $(function(){
         $container.html($newContent);
 
       }
-    }
+    },
+      onAfter: function() {
+            $('.carousel').carousel({
+                interval: 1000
+            });
+        },
   },
   smoothState = $('#main').smoothState(options).data('smoothState');
 });
+
+//typed js
+var typed = new Typed(".typed", {
+  strings: ['Your Digital Asset Wallet', 'Your Blockchain news source', 'Your Portfolio', 'Your Market Tracker', 'Your Block Explorer', 'Your Currency Exchange'],
+    typeSpeed: 50,
+//    backSpeed: 20,
+    fadeOut: true,
+    showCursor: false,
+    smartBackspace: true, // this is a default
+    loop: true
+});
+
+
+
+
+ 

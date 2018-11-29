@@ -261,7 +261,7 @@ p {
 /* fonts + text effects */
 
 .knockout-home {
-    color: red;
+    color: #000;
      -webkit-text-fill-color: transparent;
      background: -webkit-linear-gradient(transparent, transparent),
                  url(/assets/img/jaxx-iphone-X-news.jpg) center repeat;
@@ -496,9 +496,7 @@ p {
 	background-size: cover;
 }
 .bg--home-security {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-home-banner.jpg) center;
-	background: url(/assets/img/jaxx-iphone-macbook-desk-wood.png) center;
-	background: url(/assets/img/jaxx-phone-desk.jpg) center;
+	background: url(/assets/img/jaxx-phone-desk.jpg) center 30%;
 	background-size: cover;
 }
 .bg--home-testimonials {
@@ -544,6 +542,14 @@ p {
 	background-attachment: fixed;
 }
 
+/* home styles */
+
+.typed-wrap {
+	display: block;
+	width: 100%;
+	min-height: 70px;
+}
+
 /*===== Features ======*/
 
 .bg--features-banner {
@@ -552,7 +558,7 @@ p {
 	background-size: cover;
 }
 .bg--features-1 {
-    background: url(/assets/img/jaxx-ipad-iphone-macbook.png) center;
+    background: url(/assets/img/jaxx-laptop.jpg) center;
 	background-size: cover;
 }
 
@@ -560,7 +566,16 @@ p {
 .columns {
     column-count: 3;
     column-gap: 10px;
+    margin: 0 0 10px;
     padding: 20px 20px 0;
+}
+
+.columns--features {
+    column-count: 4;
+}
+.columns--features li {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    margin-bottom: 10px;
 }
 .columns li {
     border: 1px dotted lightgrey;
@@ -739,6 +754,11 @@ p {
 
 /*features modal */
 
+.modal-content {
+     border: 0; 
+     border-radius: 0; 
+}
+
 .modal.fade {
 	-webkit-transition: opacity .5s linear, top .5s ease-out;
 	transition: opacity .5s linear, top .5s ease-out;
@@ -791,15 +811,15 @@ p {
 /* security ======================*/
 
 /* img-jaxx-security on homepage source = pixabay */
-
 /* security page banner source = pixabay */
 
-.bg-img-banner-security {
+.bg--security-banner {
 	/*tvs b&w */
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/img/jaxx-security-tvs.jpg) center top;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/jaxx-security-tvs.jpg) center top;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-security-tvs.jpg) center top;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/jaxx-security-tvs.jpg) center top;
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/img/jaxx-security-tvs-redux.jpg) center top;
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/jaxx-security-tvs-redux.jpg) center top;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/img/jaxx-security-tvs-redux.jpg) center top;
+	background: url(/assets/img/jaxx-iphone-white-wallets.png) center;
 	background-size: cover;
 }
 .security-shield {
@@ -836,7 +856,16 @@ p {
 }
 /* community ======================*/
 
-/*Photo by Jack Finnigan on Unsplash*/
+/*Photos Pixabay, unsplash*/
+
+.bg--community-banner {
+    background: url(/assets/img/jaxx-ecosystem-globe.jpg) center;
+    background-size: cover;
+}
+.bg--community-1 {
+    background: url(/assets/img/jaxx-street-pano-redux.jpg) center;
+    background-size: cover;
+}
 
 .bg-img-street-pano {
 	background: url(/img/jaxx-street-pano.jpg) center;
@@ -846,6 +875,7 @@ p {
 	background: url(/img/jaxx-people-4.jpeg) center;
 	background-size: cover;
 }
+
 /* support ======================*/
 
 /* img from pexels */
@@ -968,6 +998,10 @@ i {
 }
 #features .fa {
     font-size: 30px;
+}
+#community .fa {
+    font-size: 6vmin;
+    padding: 10px 40px 10px 0;
 }
 .fa--stroke {
     color: transparent;
@@ -1152,10 +1186,7 @@ footer li a {
 		height: auto;
 		width: 40%;
 	}
-	/* features page: not using =====*/
-	.swiper-slide .text {
-		width: 100%;
-	}
+
 	/* security page*/
 	.img-shield {
 		width: 300px;
