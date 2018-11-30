@@ -14,6 +14,7 @@ include 'includes/header.php';
     <div class="row min-700-lg">
         <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center text-light bg--features-banner p-5 m-0 scene_element scene_element--fadeindown">
             <h1 class="page-title font-weight-bold">Jaxx Liberty Essentials</h1>
+            <hr class="hr-big border-0 bg-orange">
             <h2 class="h3 font-weight-light scene_element scene_element--fadeinup scene_element--delayed">More than a wallet, we're your all-in-one digital asset platform.</h2>
         </div>
     </div>
@@ -36,12 +37,12 @@ include 'includes/header.php';
         <!--download mobile-->
             <ul class="list-unstyled columns columns--features scene_element scene_element--fadein">
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-lightblue text-light">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-security-lock.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-security-lock.png" alt="">
                     <h3 class="font-weight-bold mb-0">Secure</h3>
                     <p class="border-top pt-2 mt-2">With Jaxx Liberty you're in control. Your private keys never leave your device and emjopy peace of mind with strong encryption (mnemonic and password) protocols.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-light-grey">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-natural-user-interface-2.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-natural-user-interface-2.png" alt="">
                     <h3 class="font-weight-bold mb-0">Easy to Use</h3>
                     <p class="border-top pt-2 mt-2">Fund your wallet with fiat, bitcoin, bitcoin cash, or litecoin. Then, invest in other cryptocurrencies, easily — all in one place.</p>
                 </li>
@@ -54,17 +55,17 @@ include 'includes/header.php';
                     <img class="img-full" src="/assets/img/jaxx-laptop-brick.jpg" alt="Jaxx Liberty Unified Dashboard">
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-navy text-light">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-change-64.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-change-64.png" alt="">
                     <h3 class="font-weight-bold mb-0">Flexible</h3>
                     <p class="border-top pt-2 mt-2">Manage your cryptocurrency assets in a single place.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-navy text-light">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-multiple-devices.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-multiple-devices.png" alt="">
                     <h3 class="font-weight-bold mb-0">Multi-platform</h3>
                     <p class="border-top pt-2 mt-2">Take Jaxx Liberty with you wherever you go. Available for iOS + iPad, Android + Tablet, Mac OS X, Windows, and Linux.</p>
                 </li>        
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-light-grey">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-trust-64.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-trust-64.png" alt="">
                     <h3 class="font-weight-bold mb-0">Trusted</h3>
                     <p class="border-top pt-2 mt-2">Jaxx Liberty builds on the success of Jaxx, one of the most popular blockchain and digital asset wallets, with millions of downloads.</p>
                 </li>
@@ -72,35 +73,35 @@ include 'includes/header.php';
                     <img class="img-full" src="/assets/img/jaxx-multi-device-2.jpg" alt="Jaxx Liberty Portfolio">
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-lightblue text-light">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-mobile-payment.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-mobile-payment.png" alt="">
                     <h3 class="font-weight-bold mb-0">Multi-asset</h3>
                     <p class="border-top pt-2 mt-2">Jaxx Liberty supports over 85 assets including Bitcoin, Ethereum, Litecoin, Dash and is continuously integrating new coins and tokens.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-light-grey">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-phonelink-lock-64.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-phonelink-lock-64.png" alt="">
                     <h3 class="font-weight-bold mb-0">Private</h3>
                     <p class="border-top pt-2 mt-2">We don’t hold your keys, collect your personal information, and you don't need to login or create an account.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-navy text-light">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-exchange-64.png" alt="">
-                    <h3 class="font-weight-bold mb-0">Built in exchange(s)</h3>
-                    <p class="border-top pt-2 mt-2">Seamlessly convert / swap / exchange assets easily within the wallet using ShapeShift (soon Changelly).</p>
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-exchange-64.png" alt="">
+                    <h3 class="font-weight-bold mb-0">Built in exchange</h3>
+                    <p class="border-top pt-2 mt-2">Seamlessly convert / swap / exchange assets easily within the wallet using ShapeShift (Changelly coming soon).</p>
                 </li>
                  <li class="p-0">
                     <img class="img-full" src="/assets/img/jaxx-iphone-on-macbook.jpg" alt="Jaxx Liberty Portfolio">
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-white text-light-grey">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-workflow-64.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-workflow-64.png" alt="">
                     <h3 class="font-weight-bold mb-0">User friendly UX</h3>
                     <p class="border-top pt-2 mt-2">Simplicity by design, Jaxx Liberty was developed from the ground up with ease-of-use at its core.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-lightblue text-light">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-technical-support.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-technical-support.png" alt="">
                     <h3 class="font-weight-bold mb-0">24 / 7 customer support</h3>
                     <p class="border-top pt-2 mt-2">The Jaxx Liberty User Success Team is committed to providing industry leading support, and are available 24/7 via our written channels. We're here to help!</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-light">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-investment-portfolio.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-investment-portfolio.png" alt="">
                     <h3 class="font-weight-bold mb-0">Portfolio</h3>
                     <p class="border-top pt-2 mt-2">View your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.</p>
                 </li>
@@ -108,22 +109,22 @@ include 'includes/header.php';
                     <img class="img-full" src="/assets/img/jaxx-ipad-iphone-macbook.png" alt="Jaxx Liberty Portfolio">
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-light-grey">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-investment-portfolio.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-investment-portfolio.png" alt="">
                     <h3 class="font-weight-bold mb-0">Wallets</h3>
                     <p class="border-top pt-2 mt-2">Easily customize your Jaxx Liberty wallet module, and you can search or scroll through our 85+ coins and tokens and toggle them on/off to add them to your home screen.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-white">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-news-feed.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-news-feed.png" alt="">
                     <h3 class="font-weight-bold mb-0">News</h3>
                     <p class="border-top pt-2 mt-2">Read up on what's happening in Jaxx Liberty's news module. Get the latest blockchain headline news and updates from a range of trusted sources.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-lightblue text-light">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-module.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-module.png" alt="">
                     <h3 class="font-weight-bold mb-0">Block Explorer</h3>
                     <p class="border-top pt-2 mt-2">Jaxx liberty provides and easy-to-use block explorer, right in the app. Check balances and transaction data across multiple blockchains.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-navy text-light">
-                    <img class="mb-2 w-25" src="/assets/img/jaxx-icons-color/icons8-line-graphic.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-line-graphic.png" alt="">
                     <h3 class="font-weight-bold mb-0">Markets</h3>
                     <p class="border-top pt-2 mt-2">Track the top 100 assets, follow price change over last day and week, see market cap, supply, and trading volume.</p>
                 </li>        
@@ -138,7 +139,8 @@ include 'includes/header.php';
         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left bg-light min-400 p-5">
             <img class="mb-1 ds" src="/assets/img/jaxx-icons-color/icons8-getting-things-done.png" alt="Jaxx Liberty">
             <h2 class="section-title font-weight-bold py-2">Explore our full list of features.</h2>
-            <h5 class="font-weight-bold border-top py-3">Jaxx Liberty is a free service that has no sign-up, conducts no registration, and requires no personal information to access your digital assets.</h5>
+            <hr class="hr-big border-0 bg-orange">
+            <h5 class="font-weight-bold py-3">Jaxx Liberty is a free service that has no sign-up, conducts no registration, and requires no personal information to access your digital assets.</h5>
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-lg btn-dark my-3" data-toggle="modal" data-target="#exampleModalCenter">
             Learn more
@@ -229,7 +231,8 @@ include 'includes/header.php';
         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-400 p-5">
             <img src="/assets/img/jaxx-icons-color/icons8-heart-with-mouse.png" alt="Jaxx Liberty">
             <h2 class="section-title font-weight-bold py-2">Reclaim Your Liberty</h2>
-            <h5 class="font-weight-bold border-top py-3">You’re in control. Download Jaxx Liberty. It’s free.</h5>
+            <hr class="hr-big border-0 bg-orange">
+            <h5 class="font-weight-bold py-3">You’re in control. Download Jaxx Liberty. It’s free.</h5>
             <a href="/downloads.php" onclick="googleAnalyticsTrigger('Downloads_Page', 'Features_CTA')" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">
             <button class="btn btn-lg btn-dark my-3">Download</button>
             </a>

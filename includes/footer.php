@@ -4,7 +4,8 @@
                 <div class="row d-flex d-flex justify-content-center align-items-end text-secondary bg-light px-3 pt-5">
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
-                            <li class="h4 font-weight-bold border-bottom pb-3">Jaxx Liberty</li>
+                            <li class="h4 font-weight-bold">Jaxx Liberty</li>
+                            <hr class="hr-big border-0 bg-orange">
                             <li> <a href="/features.html">Features</a></li>
                             <li> <a href="/changeLog.html">Changelog</a></li>
                             <li> <a href="/legal/terms-20181127.html">Terms of Service</a></li>
@@ -13,7 +14,8 @@
                     </div>
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
-                            <li class="h4 font-weight-bold border-bottom pb-3">Company</li>
+                            <li class="h4 font-weight-bold">Company</li>
+                            <hr class="hr-big border-0 bg-orange">
                             <li> <a href="/about.html" class="animsition-link">About</a></li>
                             <li> <a href="/community.html">Community</a></li>
                             <li> <a href="/careers.html">Careers</a></li>
@@ -22,8 +24,9 @@
                     </div>
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
-                            <li class="h4 font-weight-bold border-bottom pb-3">Download</li>
-                            <li><a data-brackets-id='7991' href="https://play.google.com/store/apps/details?id=com.liberty.jaxx">Android</a></li>
+                            <li class="h4 font-weight-bold">Download</li>
+                            <hr class="hr-big border-0 bg-orange">
+                            <li><a href="https://play.google.com/store/apps/details?id=com.liberty.jaxx">Android</a></li>
                             <li><a href="https://play.google.com/store/apps/details?id=com.liberty.jaxx">Tablet</a></li>
                             <li><a href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne">Chrome</a></li>
                             <li><a href="/downloads.html">Desktop</a></li>
@@ -31,8 +34,9 @@
                     </div>
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
-                            <li class="h4 font-weight-bold border-bottom pb-3">Connect</li>
-                            <li> <a href="/support.html" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Support</a></li>
+                            <li class="h4 font-weight-bold">Connect</li>
+                            <hr class="hr-big border-0 bg-orange">
+                            <li> <a href="/support.html">Support</a></li>
                             <li> <a href="https://www.facebook.com/JaxxWallet" target="_blank">Facebook</a></li>
                             <li> <a href="https://twitter.com/jaxx_io" target="_blank">Twitter</a> / <a href="https://twitter.com/Jaxx_Support" target="_blank">Twitter Support</a> </li>
                             <li> <a href="https://www.reddit.com/r/jaxx/" target="_blank">Reddit</a></li>
@@ -45,7 +49,7 @@
             <!-- copyright + branding-->
             <div class="row d-flex bg-light scene_element scene_element--fadeinup">
                 <div class="col-sm-12 d-flex justify-content-center text-center py-3 pt-4 navy">
-                    <p class="font-weight-light"><a href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Home_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/assets/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with love in Canada</p>
+                    <p class="font-weight-light"><a href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Home_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/assets/img/jaxx-maple-leaf-orange.png" alt="Decentral inc."> Made with love in Canada</p>
                 </div>
             </div>
         </footer>

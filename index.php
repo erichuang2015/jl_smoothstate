@@ -11,11 +11,11 @@ include 'includes/header.php';
 <!--banner-->
 
 <div role="banner" class="container-fluid">
-    <div class="row bg--home-banner min-700-lg pt-5 scene_element scene_element--fadeinleft">
+    <div class="row bg--home-banner min-700-lg pt-5 scene_element scene_element--fadeindown">
         <div class="offset-lg-2"></div>
         <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left text-light p-5 m-0 scene_element scene_element--fadein">
-            <h1 class="h2 orange font-weight-light pb-2 scene_element scene_element--fadeinright scene_element--delayed">Jaxx Liberty Digital Asset Wallet</h1>
-            <h3 class="knockout-home page-title font-weight-bold scene_element scene_element--fadeinup scene_element--delayed">Trade, track, learn, send, and receive.</h3>
+            <h1 class="h2 text-dark font-weight-light pb-2 pt-3 scene_element scene_element--fadeinright scene_element--delayed">Jaxx Liberty Digital Asset Wallet</h1>
+            <h3 class="knockout-home page-title font-weight-bold scene_element scene_element--fadeinup scene_element--delayed">Manage, track, explore, send, and receive.</h3>
             <hr class="hr-big border-0 bg-orange">
             <h4 class="h1 font-weight-bold orange scene_element scene_element--fadeinup scene_element--delayed">All in one app.</h4>
         </div>
@@ -28,14 +28,12 @@ include 'includes/header.php';
 <div role="banner" class="m_scene container-fluid p-3 bg-white text-secondary">
     <div id="sec-1" class="row d-flex min-700-lg m-4 bg-light rounded shadow-lg ">
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12 scene_element scene_element--fadeinright">
-            <div class="typed-wrap">
-<!--               typed-->
-                <h2 class="section-title font-weight-bold">Your multi-currency, multi-platform digital asset wallet.</h2>
-            </div>
-            <p class="h5 pt-2 m-0 text-secondary">Jaxx Liberty is one the most popular blockchain and digital asset platforms.</p>
-            <a href="/features.html" class="btn btn-lg btn-outline-orange mt-3">Learn More</a>
+            <h2 class="section-title font-weight-bold">Your all-in-one digital asset platform.</h2>
+<!--            <hr class="hr-big border-0 bg-orange">-->
+            <p class="h5 pt-2 m-0 text-secondary">Easily manage and exchange more than 85 digital assets including Bitcoin, Ethereum, Litecoin, and Dash.</p>
+            <a href="/features.php" class="btn btn-lg btn-outline-orange mt-3">Learn More</a>
         </div>
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center min-300 p-0 scene_element scene_element--fadeinleft">
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center min-300 p-3 scene_element scene_element--fadeinleft">
            <div class="device-wrapper">
               <div class="device" data-device="galaxyS5" data-orientation="portrait" data-color="white">
                 <div class="screen">
@@ -70,22 +68,34 @@ include 'includes/header.php';
                         <span class="sr-only">Next</span>
                       </a>
 -->
-                    </div><!--end carousel-->
-                </div>
-                <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                    </div>
+                    <!--end carousel-->
                 </div>
               </div>
-            </div><!--end device-->
+            </div>
+            <!--end device-->
         </div>
     </div><!--end row-->
-
+    
+<!--security-->
+    <div class="row d-flex min-700-lg m-4 rounded shadow-lg scene_element scene_element--fadeinleft">
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg--home-security min-300 p-0">
+            <img class="img-full" src="/assets/img/jaxx-android-girl-hand.png" alt="">
+        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+            <h2 class="section-title font-weight-bold m-0">Secure. Private. Trusted.</h2>
+            <p class="h5 pt-2 m-0 text-secondary">More than just a feature. Security is our foundation.</p>
+            <a class="btn btn-lg btn-outline-orange mt-3" href="/security.html">Explore</a>
+        </div>
+        
+    </div><!--end row-->
+    
     <!--multi platform + download-->
     <div id="sec-2" class="row d-flex min-700-lg bg-white m-4 rounded shadow-lg scene_element scene_element--fadeinright">
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg--home-devices min-300 p-4" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12">
-            <h2 class="section-title font-weight-bold m-0">Use & Pair on Multiple Devices.</h2>
-            <p class="h5 pt-2 m-0 text-secondary">Android, iOS, Mac OS X, Windows, Linux, & Google Chrome.</p>
+<!--            <h2 class="section-title font-weight-bold m-0">Use & Pair on Multiple Devices.</h2>-->
+            <h2 class="section-title font-weight-bold m-0">Available on mobile, desktop and web.</h2>
+            <p class="h5 pt-2 m-0 text-secondary">Download for Android, iOS, Mac OS X, Windows, Linux, & Google Chrome.</p>
             <div class="btn-group">
                 <button id="download" type="button" class="btn btn-lg btn-outline-orange dropdown-toggle mt-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Start Now</button>
                 <div class="dropdown-menu" >
@@ -101,27 +111,7 @@ include 'includes/header.php';
                 </div>
             </div>
         </div>
-    </div><!--end row-->
-
-    <!--features-->
-    <div class="row d-flex min-700-lg m-4 rounded shadow-lg scene_element scene_element--fadeinleft">
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-secondary text-center p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-            <h2 class="section-title font-weight-bold m-0">Packed with features.</h2>
-            <p class="h5 pt-2 m-0">Easy to use, powerful, fast, and free.</p>
-            <a href="/features.html" class="btn btn-lg btn-outline-orange mt-3">See how it works</a>
-        </div>
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center min-300">
-            <img class="img-full ds" src="/assets/img/jaxx-iphone-X-3.png" alt="">
-        </div>
-    </div><!--end row-->
-
-    <!--security-->
-    <div class="row d-flex min-700-lg m-4 bg--home-security rounded shadow-lg p-3 scene_element scene_element--fadeinleft">
-        <div class="col-lg-12 d-flex flex-column justify-content-end align-items-start text-left p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-            <h2 class="section-title font-weight-bold m-0">Secure. Private. Trusted.</h2>
-            <p class="h5 pt-2 m-0 text-secondary">More than just a feature. Security is our foundation.</p>
-            <a class="btn btn-lg btn-outline-orange mt-3" href="/security.html">Learn More</a>
-        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg--home-devices min-300 p-4"></div>
     </div><!--end row-->
 
     <!--testimonials-->
@@ -164,8 +154,8 @@ include 'includes/header.php';
 
     <div class="row d-flex bg-white min-500 m-4 rounded shadow-lg bg--home-community">
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-light min-400 p-5 o-12">
-            <h2 class="section-title font-weight-bold m-0">Our Community</h2>
-            <p class="h5 pt-2 m-0">Uniting 85+ digital assets and communities.</p>
+            <h2 class="section-title font-weight-bold m-0">Our Ecosystem</h2>
+            <p class="h5 pt-2 m-0">Uniting over 85 digital assets and communities.</p>
             <button class="btn btn-lg btn-outline-light mt-3">Join Us</button>
         </div>
         <div class="offset-lg-6"></div>
@@ -175,9 +165,9 @@ include 'includes/header.php';
 
     <div class="row d-flex bg-white m-4 min-500 rounded shadow-lg">
         <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center min-400 py-5">
-            <h2 class="section-title font-weight-bold m-0">Our Partners</h2>
-            <p class="h5 pt-2 m-0">Uniting 85+ digital assets and communities.</p>
-            <button class="btn btn-lg btn-outline-secondary mt-3">Join Us</button>
+            <h2 class="section-title font-weight-bold m-0">Our Friends</h2>
+            <p class="h5 pt-2 m-0">Jaxx Liberty brings together a variety of blockchain projects.</p>
+            <button class="btn btn-lg btn-outline-secondary mt-3">Learn More</button>
             <img class="img w-50 mt-4 ds" src="/assets/img/Jaxx-Liberty-Partner-Logos-Laptop-Trans/7.png" alt="">
         </div>
     </div><!--end row-->
@@ -217,9 +207,9 @@ include 'includes/header.php';
 
     <!-- social-->
     <div id="sec-5" class="row d-flex text-secondary m-4 shadow-lg">
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center bg-light min-50 p-5 o-12">
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center bg-light min-300 p-5 o-12">
             <h2 class="section-title font-weight-bold m-0">Get Social</h2>
-            <p class="pt-2 m-0">Join the Jaxx Liberty community today.</p>
+            <p class="h5 pt-2 m-0">Join the Jaxx Liberty community today.</p>
             <div class="container-fluid">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-xs-3">
@@ -234,19 +224,22 @@ include 'includes/header.php';
                     <div class="col-xs-3">
                         <i class="fa fa-youtube"></i>
                     </div>
+                    <div class="col-xs-3">
+                        <i class="fa fa-reddit"></i>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg--home-social min-50 p-4">
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg--home-social min-300 p-4">
         </div>
     </div><!--end row-->
 
     <!--download-->
     <div id="sec-2" class="row d-flex text-secondary m-4 rounded shadow-lg">
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg--home-download min-50 p-4"></div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg--home-download min-300 p-4"></div>
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center bg-light min-50 p-5 o-12">
             <h2 class="section-title font-weight-bold m-0">Reclaim Your Liberty</h2>
-            <p class="pt-2 m-0">Take control of your digital life. Download Jaxx Liberty. It’s 100% free.</p>
+            <p class="h5 pt-2 m-0">Take control of your digital life. Download Jaxx Liberty. It’s 100% free.</p>
             <a href="/downloads.html" onclick="googleAnalyticsTrigger('Downloads_Page', 'Features_CTA')">
             <button class="btn btn-lg btn-outline-orange my-3">Start Now</button>
             </a>

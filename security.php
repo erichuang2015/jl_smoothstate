@@ -10,28 +10,26 @@ include 'includes/header.php';
 
 <!--banner-->
 
-        <div id="security" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg--security-banner text-white min-700-lg p-5 mb-0 scene_element scene_element--fadeindown">
-            <div class="row">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center p-5 rellax" data-rellax-speed="-2">
-                    <img class="security-shield mt-3 mb-0" src="/assets/img/jaxx-shield-orange-redux.png" alt="Jaxx Liberty Security">
-                    <h1 class="page-title relative z-1 x-bold mt-0 mb-1">Security</h1>
-                    <hr class="w-25 bg-white">
-                    <h2 class="site-sub-title relative z-1 pt-1 pb-2">
-                        <span class="d-inline-block">Your security. Our committment.</span>
-                    </h2>
+            <div id="security" role="banner" class="container-fluid scene_element scene_element--fadeindown">
+                <div class="row d-flex bg--security-banner text-white min-700-lg p-5 mb-0 ">
+                    <div class="col-lg-6 d-flex flex-column justify-content-end align-items-start text-left p-5">
+                        <h1 class="page-title font-weight-bold py-3 scene_element scene_element--fadeinup scene_element--delayed">Security</h1>
+                        <hr class="hr-big border-0 bg-orange">
+                    </div>
+                    <div class="offset-lg-6"></div>
                 </div>
             </div>
-        </div>
 
-    <div class="m-page">
+            <div class="m-page">
 
             <div class="container-fluid text-secondary p-0 scene_element scene_element--fadeinup">
                 <!--security features-->
                 <div class="row d-flex m-4 shadow-lg rounded relative z-1">
                     <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start min-50 bg-light p-5">
-                        <img class="jaxx-navbar-brand" src="/assets/img/jaxx-icons-color/icons8-security-lock.png" alt="Jaxx Liberty Security">
+<!--                        <img class="jaxx-navbar-brand" src="/assets/img/jaxx-icons-color/icons8-security-lock.png" alt="Jaxx Liberty Security">-->
+                        <img class="jaxx-navbar-brand" src="/assets/img/jaxx-shield-orange-redux.png" alt="Jaxx Liberty Security">
                         <h2 class="section-sub-title font-weight-light py-3">Verified before you start</h2>
-                        <p class="border-top py-3">Jaxx Liberty's core security and subsequent updates go through a vigorous testing phase in order to make sure that everything you hold in your wallet is safe and secure.</p>
+                        <p class="py-3">Jaxx Liberty's core security and subsequent updates go through a vigorous testing phase in order to make sure that everything you hold in your wallet is safe and secure.</p>
                     </div>
                     <div class="col-lg-6 p-0">
                         <img class="img-full" src="/assets/img/jaxx-iphone-note-desk-white.png" alt="Jaxx Liberty Security">
@@ -56,13 +54,13 @@ include 'includes/header.php';
                         <p class="border-top py-3">Your 12-word backup phrase is encrypted and stored only on your device. We don’t have access to it nor is it stored on any server. We believe you should be in complete control.</p>
                     </div>
                     <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center p-0 o-12">
-                        <img class="img-full" src="/assets/img/jaxx-ipad-iphone-macbook.png" alt="Jaxx Liberty Security">
+                        <img class="img-full" src="/assets/img/jaxx-iphone-white-2-angled.jpg" alt="Jaxx Liberty Security">
                     </div>
                 </div>
                 <!--end row-->
                 <div class="row d-flex m-4 shadow-lg rounded">
                     <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center p-0 o-12">
-                         <img class="img-full" src="/assets/img/jaxx-encryption-redux.jpg" alt="Jaxx Liberty Security">
+                         <img class="img-full" src="/assets/img/jaxx-security-lock.jpg" alt="Jaxx Liberty Security">
                     </div>
                     <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start min-50 bg-light p-5 o-4">
                         <img class="jaxx-navbar-brand" src="/assets/img/jaxx-icons-color/icons8-toggle-on.png" alt="Jaxx Liberty Security">
@@ -96,8 +94,6 @@ include 'includes/header.php';
                 </div><!--end row-->
             </div>
             <!--end main container-->
-
-?>
 
 <?php
 

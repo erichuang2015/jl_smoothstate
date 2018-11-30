@@ -20,7 +20,7 @@ include 'includes/header.php';
         
         <div class="m-page">
          
-          <div class="container-fluid scene_element scene_element--fadeinup">
+          <div id="terms" class="container-fluid scene_element scene_element--fadeinup">
                 <div class="row d-flex">
                     <!--last updated-->
                     <div id="intro" class="col-xl-12 d-flex flex-column justify-content-center align-items-center p-4 pt-5">
