@@ -11,10 +11,10 @@ include 'includes/header.php';
 <!--banner-->
 
             <div id="security" role="banner" class="container-fluid scene_element scene_element--fadeindown">
-                <div class="row d-flex bg--security-banner text-white min-700-lg p-5 mb-0 ">
+                <div class="row d-flex bg--security-banner text-white min-700-lg p-5 mb-0">
                     <div class="col-lg-6 d-flex flex-column justify-content-end align-items-start text-left p-5">
                         <h1 class="page-title font-weight-bold py-3 scene_element scene_element--fadeinup scene_element--delayed">Security</h1>
-                        <hr class="hr-big border-0 bg-orange">
+                        <hr class="hr-big border-0 bg-orange scene_element scene_element--fadeinleft scene_element--delayed">
                     </div>
                     <div class="offset-lg-6"></div>
                 </div>
@@ -88,7 +88,7 @@ include 'includes/header.php';
                         <img class="jaxx-navbar-brand" src="/assets/img/Jaxx_Primary_Icon.png" alt="Jaxx Liberty Security">
                         <h2 class="section-sub-title font-weight-light py-3">Take control of your digital life.</h2>
                         <div>
-                            <a href="downloads.html" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" onclick="googleAnalyticsTrigger('Downloads_Page', 'Security_CTA')">Download</a>
+                            <a href="downloads.php" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" onclick="googleAnalyticsTrigger('Downloads_Page', 'Security_CTA')">Download</a>
                         </div>
                     </div>
                 </div><!--end row-->

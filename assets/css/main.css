@@ -482,8 +482,8 @@ p {
     background: url(/assets/img/jaxx-phone-hand-car.jpg) center left no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/img/jaxx-phone-hand-car.jpg) center left no-repeat;
     background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(/assets/img/jaxx-multi-device-2.jpg) center left no-repeat;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(/assets/img/jaxx-app-homescreen.jpg) center no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 .bg--home-devices {
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-home-banner.jpg) center;
@@ -613,6 +613,7 @@ p {
 	background-size: cover;
 }
 .app-store {
+    margin-right: 5px;
     width: 140px;
 }
 .google-play {
@@ -620,6 +621,7 @@ p {
 } 
 .chrome-logo {
 	width: 180px;
+    width: 152px;
 }
 @media (max-width: 375px) {
  /* downloads page store logos fro iphone 5 */
@@ -720,41 +722,39 @@ p {
 
 /*about banner:  Photo by Sammie Vasquez on Unsplash*/
 
-.bg-img-about {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/img/jaxx-people-2.jpg) center 20%;
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/jaxx-people-2.jpg) center 20%;
+.bg--about-banner {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/assets/img/jaxx-people-2.jpg) center 20%;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/img/jaxx-people-2.jpg) center 20%;
 	background-size: cover;
 }
-/*Photo by Ian Schneider on Unsplash*/
 
-.bg-img-about-passion {
-	background: url(/img/jaxx-about-passion-redux.jpg) center 20%;
+.bg--about-passion {
+	background: url(/assets/img/jaxx-about-passion-redux.jpg) center 20%;
 	background-size: cover;
 }
-/* pexels */
 
-.bg-img-jump {
-	background: url(/img/jaxx-jump-2.jpg) center;
-	background: url(/img/jaxx-jump-2-redux.jpg) center;
+.bg--about-jump {
+	background: url(/assets/img/jaxx-jump-2-redux.jpg) center;
 	background-size: cover;
 }
-/* pexels */
 
-.bg-img-heart {
-	background: url(/img/jaxx-heart-hands.jpg) center;
+.bg--about-heart {
+	background: url(/assets/img/jaxx-heart-hands.jpg) center;
 	background-size: cover;
 }
-.bg-img-office {
-	background: url(/img/jaxx-careers-office.jpg) center;
+.bg--about-office {
+	background: url(/assets/img/jaxx-careers-office.jpg) center;
 	background-size: cover;
 }
 .bg-img-office-2 {
-	background: url(/img/decentral-office-original-redux.jpg) center;
+	background: url(/assets/img/decentral-office-original-redux.jpg) center;
 	background-size: cover;
 }
-/*  features og page ======================*/
+/*  features page ======================*/
 
-/* features-og page modals */
+#features p {
+    font-weight: 400;
+}
 
 /*features modal */
 
@@ -796,21 +796,6 @@ p {
 
 /* downloads ======================*/
 
-/* img from pexels */
-
-.bg-img-banner-downloads {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(/img/jaxx-jump-2.jpg) center;
-	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/jaxx-jump-2.jpg) center;
-	background-size: cover;
-}
-
-/*make desktop HERE words hover with pointer for modal activation*/
-#legacyDesktop span {
-    transition: all .2s ease;
-}
-#legacyDesktop span:hover {
-    cursor: pointer;
-}
 
 /* security ======================*/
 
@@ -945,7 +930,7 @@ nav,
 .navbar {
 	background: rgba(0, 0, 0, 0.3);
 	background: rgb(255,255,255);
-	border-bottom: 1px solid lightgrey;
+/*	border-bottom: 1px solid lightgrey;*/
 	-webkit-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }

@@ -73,7 +73,7 @@
         </script>
   </head>
   <body>
-    <div class="m-scene scene_element scene_element--fadein" id="main">
+    <div class="m-scene" id="main">
        
        <!--nav-->
         <nav class="navbar fixed-top navbar-expand-lg scene_element scene_element--fadeindown">

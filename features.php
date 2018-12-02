@@ -13,20 +13,18 @@ include 'includes/header.php';
 <div role="banner" class="container-fluid">
     <div class="row min-700-lg">
         <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center text-light bg--features-banner p-5 m-0 scene_element scene_element--fadeindown">
-            <h1 class="page-title font-weight-bold">Jaxx Liberty Essentials</h1>
-            <hr class="hr-big border-0 bg-orange">
+            <h1 class="page-title font-weight-bold mt-5 pt-5 scene_element scene_element--fadeinleft scene_element--delayed">Jaxx Liberty Essentials</h1>
+            <hr class="hr-big border-0 bg-orange scene_element scene_element--fadeinright scene_element--delayed">
             <h2 class="h3 font-weight-light scene_element scene_element--fadeinup scene_element--delayed">More than a wallet, we're your all-in-one digital asset platform.</h2>
         </div>
     </div>
 </div>
 
-<div class="m-page">
-
-<div class="container-fluid bg-light text-secondary p-0">
+<div id="features" class="container-fluid bg-light text-secondary p-0">
    
     <div class="row d-flex bg--features-1 mx-4 mt-4 mb-2 shadow-lg rounded scene_element scene_element--fadeinup">
         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left bg-- p-5">
-            <img class="mb-1 ds" src="/assets/img/jaxx-icons-color/icons8-heart-with-mouse.png" alt="Jaxx Liberty Features">
+            <img class="mb-1 ds" src="/assets/img/jaxx-icons-plasticine/icons8-outlined-heart.png" alt="Jaxx Liberty Features">
             <h3 class="font-weight-bold mb-0">Jaxx Liberty Essentials</h3>
             <p class="border-top pt-2 mt-2">Our goal is to impact lives, to provide the tools and empower our users to manage and be in control of their digital assets.</p>
         </div>
@@ -37,17 +35,17 @@ include 'includes/header.php';
         <!--download mobile-->
             <ul class="list-unstyled columns columns--features scene_element scene_element--fadein">
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-lightblue text-light">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-security-lock.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-plasticine/icons8-secure.png" alt="">
                     <h3 class="font-weight-bold mb-0">Secure</h3>
                     <p class="border-top pt-2 mt-2">With Jaxx Liberty you're in control. Your private keys never leave your device and emjopy peace of mind with strong encryption (mnemonic and password) protocols.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-light-grey">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-natural-user-interface-2.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-outline/icons8-3d-rotate.png" alt="">
                     <h3 class="font-weight-bold mb-0">Easy to Use</h3>
                     <p class="border-top pt-2 mt-2">Fund your wallet with fiat, bitcoin, bitcoin cash, or litecoin. Then, invest in other cryptocurrencies, easily — all in one place.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left text-light bg-lightblue">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-rocket-64.png" alt="Jaxx Liberty Integrated Multi-Chain Block Explorer">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-plasticine/icons8-in-progress.png" alt="Jaxx Liberty Integrated Multi-Chain Block Explorer">
                     <h3 class="font-weight-bold mb-0">Fast</h3>
                     <p class="border-top pt-2 mt-2">Exchange between cryptocurrencies and fiat any time you want, almost instantly</p>
                 </li>
@@ -55,7 +53,7 @@ include 'includes/header.php';
                     <img class="img-full" src="/assets/img/jaxx-laptop-brick.jpg" alt="Jaxx Liberty Unified Dashboard">
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-navy text-light">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-change-64.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-plasticine/icons8-connect.png" alt="">
                     <h3 class="font-weight-bold mb-0">Flexible</h3>
                     <p class="border-top pt-2 mt-2">Manage your cryptocurrency assets in a single place.</p>
                 </li>

@@ -1,6 +1,6 @@
 <?php
 
-$title = "Jaxx Liberty | Features";
+$title = "Jaxx Liberty | Downloads";
 
 $metaD = "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.";
 
@@ -21,6 +21,8 @@ include 'includes/header.php';
                     <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Downloads_Mobile')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img title="Play Store Button" class="google-play mr-1" src="/assets/img/gooogle-play-2.png" alt="Google Store Button"/></a>
                     <!--jaxx liberty itunes-->
                     <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img title="iTunes Store Button" class="app-store" src="/assets/img/app-store-button.svg" alt="iTunes Store Button"/></a>
+                    <!--jaxx liberty itunes-->
+                    <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="#" target="_blank"><img title="iTunes Store Button" class="chrome-logo" src="https://embedsignage.com/wp-content/uploads/2016/04/embed-signage-chromeos-web-store-button.png" alt="Chrome Web Store"/></a>
                 </div><!--end button nest row--> 
                 
                 <div class="btn-group scene_element scene_element--fadeinup">
@@ -42,9 +44,7 @@ include 'includes/header.php';
         </div><!--end row-->
     </div><!--end container-->
         
-    <div class="m-page">
-
-      <div class="container-fluid p-0">
+    <div class="container-fluid p-0">
        <div class="row p-0">
         <!--nested container for modals-->
             <!--jaxx liberty linux 32 bit modal-->
@@ -149,7 +149,6 @@ include 'includes/header.php';
             </div><!--end Liberty Windows modal-->
           </div>
         </div><!--end container-->
-    </div><!--end page-->
 
 <?php
 

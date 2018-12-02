@@ -27,22 +27,22 @@ include 'includes/header.php';
                
                 <!--Connecting informing sharing-->
                 <div class="row d-flex min-500 p-4">
-                    <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 o-12">
+                    <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-400 p-5 o-12">
                         <h2 class="site-title font-weight-light pb-3">Connecting, informing, sharing</h2>
                         <hr class="hr-big border-0 bg-orange">
                         <p class="py-3 m-0"><span class="orange">Jaxx Liberty</span> connects more than 85 partners and friends — all working together to inform and empower people to take control of their digital lives and move toward the age of value.</p>
                     </div>
-                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center min-50 bg-img-street-pano hide-md">
-                        <img class="img-full" src="/assets/img/jaxx-globe-flat-circuit.png" alt="Jaxx Liberty connects, informs, and unites.">
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center min-300 p-0">
+                        <img class="img-full p-4" src="/assets/img/jaxx-globe-flat-circuit.png" alt="Jaxx Liberty connects, informs, and unites.">
                     </div>
                 </div>
                 
                 <!--Join our community-->
-                <div id="community" class="row d-flex p-4 min-500">
-                   <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center min-50 bg-img-street-pano hide-md">
+                <div id="community" class="row d-flex min-500">
+                   <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center min-300">
                         <img class="img w-75 ds" src="/assets/img/jaxx-globe-wire.png" alt="Join the Jaxx Liberty Social Media Community.">
                     </div>
-                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 o-12">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-400 p-5 o-12">
                         <h2 class="site-title font-weight-light pb-3">Join our Ecosystem</h2>
                         <hr class="hr-big border-0 bg-orange">
                         <p class="py-3 m-0"><span class="orange">Jaxx Liberty</span> connects more than 85 partners and friends — all working together to inform and empower people to take control of their digital lives and move toward the age of value.</p>
@@ -84,18 +84,17 @@ include 'includes/header.php';
                 </div>
                 
                 <!--Partners-->
-                <div class="row d-flex p-4 min-500">
-                    <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center min-400 py-5">
+                <div class="row d-flex min-500">
+                    <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center min-400 p-5">
                         <h2 class="site-title font-weight-light pb-3">Our Partners</h2>
                         <hr class="hr-big border-0 bg-orange">
                         <p class="h5 pt-2 m-0">Uniting 85+ digital assets and communities.</p>
-                        <button class="btn btn-lg btn-outline-secondary mt-3">Join Us</button>
                         <img class="img w-50 mt-4 ds" src="/assets/img/Jaxx-Liberty-Partner-Logos-Laptop-Trans/7.png" alt="Jaxx Liberty Partners with over 85 Digital Assets and Communities.">
                     </div>
                 </div><!--end row-->
                 
                 <!--row 3 Our Friends-->
-                <div id="row4" class="row bg-light m-4 rounded shadow-lg">
+                <div id="row4" class="row bg-light p-4">
                     <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center min-50 text-center p-5">
                        <h2 class="site-title font-weight-light pb-3">Our Asset Network</h2>
                         <hr class="hr-big border-0 bg-orange">
@@ -367,8 +366,6 @@ include 'includes/header.php';
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
-
-?>
 
 <?php
 

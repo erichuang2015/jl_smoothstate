@@ -6,19 +6,19 @@
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold">Jaxx Liberty</li>
                             <hr class="hr-big border-0 bg-orange">
-                            <li> <a href="/features.html">Features</a></li>
-                            <li> <a href="/changeLog.html">Changelog</a></li>
-                            <li> <a href="/legal/terms-20181127.html">Terms of Service</a></li>
-                            <li> <a href="/thirdparties-current.html">Third-Party Agreements</a></li>
+                            <li> <a href="/features.php">Features</a></li>
+                            <li> <a href="/changeLog.php">Changelog</a></li>
+                            <li> <a href="/legal/terms-20181127.php">Terms of Service</a></li>
+                            <li> <a href="/thirdparties-current.php">Third-Party Agreements</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold">Company</li>
                             <hr class="hr-big border-0 bg-orange">
-                            <li> <a href="/about.html" class="animsition-link">About</a></li>
-                            <li> <a href="/community.html">Community</a></li>
-                            <li> <a href="/careers.html">Careers</a></li>
+                            <li> <a href="/about.php">About</a></li>
+                            <li> <a href="/community.php">Community</a></li>
+                            <li> <a href="https://decentral.ca/" target="_blank">Decentral</a></li>
                             <li> <a href="https://blog.jaxx.io/">Blog</a></li>
                         </ul>
                     </div>
@@ -29,34 +29,30 @@
                             <li><a href="https://play.google.com/store/apps/details?id=com.liberty.jaxx">Android</a></li>
                             <li><a href="https://play.google.com/store/apps/details?id=com.liberty.jaxx">Tablet</a></li>
                             <li><a href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne">Chrome</a></li>
-                            <li><a href="/downloads.html">Desktop</a></li>
+                            <li><a href="/downloads.php">Desktop</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold">Connect</li>
                             <hr class="hr-big border-0 bg-orange">
-                            <li> <a href="/support.html">Support</a></li>
+                            <li> <a href="/support.php">Support</a></li>
                             <li> <a href="https://www.facebook.com/JaxxWallet" target="_blank">Facebook</a></li>
                             <li> <a href="https://twitter.com/jaxx_io" target="_blank">Twitter</a> / <a href="https://twitter.com/Jaxx_Support" target="_blank">Twitter Support</a> </li>
                             <li> <a href="https://www.reddit.com/r/jaxx/" target="_blank">Reddit</a></li>
                         </ul>
                     </div>
-                </div>
-                <!--end nest container-->
-            </div>
-            <!--end row-->
-            <!-- copyright + branding-->
-            <div class="row d-flex bg-light scene_element scene_element--fadeinup">
-                <div class="col-sm-12 d-flex justify-content-center text-center py-3 pt-4 navy">
-                    <p class="font-weight-light"><a href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Home_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/assets/img/jaxx-maple-leaf-orange.png" alt="Decentral inc."> Made with love in Canada</p>
-                </div>
-            </div>
+                    
+                    <div class="col-sm-12 d-flex justify-content-center text-center py-4 navy">
+                        <p class="font-weight-light m-0"><a href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Legal_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/assets/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with love in Canada</p>
+                    </div>
+                </div><!--end row-->
+            </div><!--end container-->
         </footer>
           
           
-        </div><!--end page-->
-    </div><!--main container-->
+        </div><!--end main page-->
+<!--    </div>main container-->
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script><!--seems to only work with either older jquery or non-slim build-->
