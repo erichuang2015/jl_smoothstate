@@ -595,6 +595,9 @@ p {
 	background: url(/assets/img/jaxx-laptop-hands.jpg) center;
 	background-size: cover;
 }
+
+/*download badges*/
+
 .app-store {
     margin-right: 5px;
     width: 140px;
@@ -606,22 +609,6 @@ p {
 	width: 180px;
     width: 152px;
 }
-@media (max-width: 375px) {
- /* downloads page store logos fro iphone 5 */
-.google-play {
-    width: 135px;
-}
-.app-store {
-    width: 122px;
-    }
-}
-
-@media (max-width: 600px) {
-    .min-700-lg {
-        min-height: 500px;
-    }
-}
-
 
 /*===== Legal: Terms ======*/
 
@@ -633,31 +620,12 @@ p {
 
 /*===== Legal: 3rd Parties ======*/
 
-.bg-img-banner-thirdparties {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/img/jaxx-people-1.jpeg) center;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/jaxx-people-1.jpeg) center;
+.bg--thirdparties-banner {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-people-1.jpeg) center;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/jaxx-people-1.jpeg) center;
 	background-size: cover;
 }
 
-
-/* downloads section bg img */
-
-.bg-img-partners {
-	background: url(/img/jaxx-partners.jpeg) center;
-	background-size: cover;
-}
-/*download section image + gradient*/
-
-/*Photo by rawpixel on Unsplash*/
-
-.bg-download-gradient {
-	background: rgb(38, 65, 118);
-	/* fallback for old browsers */
-	background: -webkit-gradient(linear, left top, right top, from(rgba(38, 65, 118, 0.8)), to(rgba(5, 117, 230, 0.8))), url(/img/jaxx-group-circle.jpg) center;
-	background: linear-gradient(to right, rgba(38, 65, 118, 0.8), rgba(5, 117, 230, 0.8)), url(/img/jaxx-group-circle.jpg) center;
-	background-blend-mode: multiply;
-	background-size: cover;
-}
 /* cookies consent banner ======================*/
 
 .cc-message, .cc-btn {
@@ -702,8 +670,6 @@ p {
 }
 
 /*  about page ======================*/
-
-/*about banner:  Photo by Sammie Vasquez on Unsplash*/
 
 .bg--about-banner {
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/assets/img/jaxx-people-2.jpg) center 20%;
@@ -1008,12 +974,6 @@ footer li a {
 		order: 12;
 	}
 
-	/* front page downloads img*/
-	.downloads-img {
-		height: auto;
-		left: 0;
-		width: 100%;
-	}
 	/* download buttons reduce size */
 	#download .btn-lg {
 		font-size: 18px;
@@ -1124,6 +1084,26 @@ footer li a {
 	.footer-leaf {
 		height: 35px;
 	}
+    .min-700-lg {
+        min-height: 500px;
+    }
+/*    downloads page badges*/
+    .downloads-badge-container {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .google-play {
+        width: 151px;
+    }
+    .app-store {
+        width: 152px;
+        }
+    .chrome-logo {
+        width: 156px;
+        padding: 0 5px 0 0;
+        }
+
 }
 /* make features page modal 80% width */
 
@@ -1144,6 +1124,15 @@ footer li a {
 		height: auto;
 		width: 75%;
 	}
+}
+@media (max-width: 375px) {
+ /* downloads page store logos fro iphone 5 */
+.google-play {
+    width: 135px;
+}
+.app-store {
+    width: 122px;
+    }
 }
 /* ==========================================================================
    Helper classes

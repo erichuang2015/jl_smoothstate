@@ -12,17 +12,17 @@ include 'includes/header.php';
     <div id="downloads" role="banner" class="container-fluid scene_element scene_element--fadeindown">
         <div class="row bg--downloads-banner min-100 pt-5">
             <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-5 m-0">
-                <h1 class="page-title font-weight-bold scene_element scene_element--fadeinleft scene_element--delayed">Start your journey</h1>
+                <h1 class="page-title font-weight-bold pt-4 scene_element scene_element--fadeinleft scene_element--delayed">Start Your Journey</h1>
                 <hr class="hr-big border-0 bg-orange">
                 <h2 class="font-weight-bold orange pt-2 scene_element scene_element--fadeinright scene_element--delayed">Download Jaxx Liberty</h2>
                 
                 <div class="row downloads-badge-container pt-3 scene_element scene_element--fadeinup">
                     <!--jaxx liberty google store-->
-                    <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Downloads_Mobile')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img title="Play Store Button" class="google-play mr-1" src="/assets/img/gooogle-play-2.png" alt="Google Store Button"/></a>
+                    <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Downloads_Mobile')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img title="Play Store Button" class="google-play mr-1 mt-1" src="/assets/img/gooogle-play-2.png" alt="Google Store Button"/></a>
                     <!--jaxx liberty itunes-->
-                    <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img title="iTunes Store Button" class="app-store" src="/assets/img/app-store-button.svg" alt="iTunes Store Button"/></a>
+                    <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img title="iTunes Store Button" class="app-store mt-1" src="/assets/img/app-store-button.svg" alt="iTunes Store Button"/></a>
                     <!--jaxx liberty itunes-->
-                    <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="chrome-logo" src="https://embedsignage.com/wp-content/uploads/2016/04/embed-signage-chromeos-web-store-button.png" alt="Chrome Web Store"/></a>
+                    <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="chrome-logo mt-1" src="https://embedsignage.com/wp-content/uploads/2016/04/embed-signage-chromeos-web-store-button.png" alt="Chrome Web Store"/></a>
                 </div><!--end button nest row--> 
                 
                 <!--desktop dropdown--> 

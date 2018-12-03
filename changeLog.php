@@ -1,6 +1,6 @@
 <?php
 
-$title = "Jaxx Liberty | Changelog";
+$title = "Jaxx Liberty | Change Log";
 
 $metaD = "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.";
 
