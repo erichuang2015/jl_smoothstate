@@ -238,6 +238,8 @@ p {
 }
 .section-title {
     font-size: 6vmin;
+    line-height: 100%;
+    letter-spacing: -2px;
 }
 .section-sub-title {
 	font-size: 6vmin;
@@ -482,7 +484,7 @@ p {
     background: url(/assets/img/jaxx-phone-hand-car.jpg) center left no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/img/jaxx-phone-hand-car.jpg) center left no-repeat;
     background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(/assets/img/jaxx-multi-device-2.jpg) center left no-repeat;
-    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(/assets/img/jaxx-app-homescreen.jpg) center no-repeat;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(/assets/img/jaxx-app-homescreen-redux.jpg) center 20% no-repeat;
     background-size: cover;
 }
 .bg--home-devices {
@@ -514,25 +516,13 @@ p {
 	background-size: contain;
     filter: drop-shadow(8px 8px 10px gray);
 }
-.bg--home-card-support {
-	background: url(/assets/img/jaxx-support-banner-redux.jpg) center;
-	background-size: cover;
-}
-.bg--home-card-blog {
-	background: url(/assets/img/jaxx-home-banner.jpg) center;
-	background-size: cover;
-}
-.bg--home-card-blog {
-	background: url(/assets/img/jaxx-home-banner.jpg) center;
-	background-size: cover;
-}
 .bg--home-social {
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-partners.jpeg) center;
 	background: url(/assets/img/jaxx-partners.jpeg) center;
 	background-size: cover;
 }
 .bg--home-download {
-	background: url(/assets/img/jaxx-app-homescreen.jpg) center;
+	background: url(/assets/img/jaxx-app-homescreen-redux.jpg) center;
 	background-size: cover;
 }
 .bg-img-app-homepage {
@@ -542,19 +532,12 @@ p {
 	background-attachment: fixed;
 }
 
-/* home styles */
-
-.typed-wrap {
-	display: block;
-	width: 100%;
-	min-height: 70px;
-}
-
 /*===== Features ======*/
 
 .bg--features-banner {
     background: url(/assets/img/jaxx-ipad-iphone-macbook.png) center bottom;
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/assets/img/jaxx-macbook-iphone-camera-wood.png) center top;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/assets/img/jaxx-macbook-iphone-headphones-desk.jpg) center 80%;
 	background-size: cover;
 }
 .bg--features-1 {
@@ -752,10 +735,6 @@ p {
 }
 /*  features page ======================*/
 
-#features p {
-    font-weight: 400;
-}
-
 /*features modal */
 
 .modal-content {
@@ -794,23 +773,13 @@ p {
 	width: 40px;
 }
 
-/* downloads ======================*/
-
-
 /* security ======================*/
 
-/* img-jaxx-security on homepage source = pixabay */
-/* security page banner source = pixabay */
-
 .bg--security-banner {
-	/*tvs b&w */
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-security-tvs.jpg) center top;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/jaxx-security-tvs.jpg) center top;
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/img/jaxx-security-tvs-redux.jpg) center top;
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/img/jaxx-security-tvs-redux.jpg) center top;
 	background: url(/assets/img/jaxx-iphone-X-black-bg.jpg) center 30%;
 	background-size: cover;
 }
+
 .security-shield {
 	top: 0px;
 	width: 300px;
@@ -823,29 +792,8 @@ p {
 	width: 400px;
 	z-index: 0;
 }
-.bg-img-jaxx-hand {
-	background: url(/img/jaxx-hand-device.jpg) center;
-	background-size: cover;
-}
-.bg-img-hand-device {
-	background: url(/img/jaxx-hand-device.jpg) center;
-	background-size: cover;
-}
-/*Photo by Helena Lopes on Unsplash*/
 
-.bg-img-people-1 {
-	background: url(/img/jaxx-four-people.jpeg) center;
-	background-size: cover;
-}
-/* pexels */
-
-.bg-img-encryption {
-	background: url(/img/jaxx-encryption.jpg) center;
-	background-size: cover;
-}
 /* community ======================*/
-
-/*Photos Pixabay, unsplash*/
 
 .bg--community-banner {
     background: url(/assets/img/jaxx-ecosystem-globe.jpg) center;
@@ -856,66 +804,13 @@ p {
     background-size: cover;
 }
 
-.bg-img-street-pano {
-	background: url(/img/jaxx-street-pano.jpg) center;
-	background-size: cover;
-}
-.bg-img-community-people {
-	background: url(/img/jaxx-people-4.jpeg) center;
-	background-size: cover;
-}
-
-/* support ======================*/
-
-/* img from pexels */
-
-.bg-img-banner-support {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/img/jaxx-support-banner.jpg) center;
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/jaxx-support-banner.jpg) center;
-	background-size: cover;
-}
-/*Photo by Anthony DELANOIX on Unsplash*/
-
-.bg-img-support-welcome {
-	background: url(/img/jaxx-support-welcome.jpg) center;
-	background-size: cover;
-}
 /* changelog ======================*/
 
-/* pexels */
-
-.bg-img-banner-changelog {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/img/jaxx-changelog.jpg) center;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/jaxx-changelog.jpg) center;
+.bg--changelog-banner {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/jaxx-changelog.jpg) center;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/jaxx-changelog.jpg) center;
 	background-size: cover;
 }
-
-
-/*changelog=======================*/
-
-/* features phone slider ======================*/
-
-/* pexels */
-
-.bg-img-banner-features {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/img/jaxx-features-banner.jpg) center;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/jaxx-features-banner.jpg) center bottom;
-	background-size: cover;
-}
-/* unsplash */
-
-.bg-img-testimonials {
-	background: url(/img/jaxx-testimonials.jpeg) center;
-	background-size: cover;
-}
-/* pexels */
-
-.bg-img-banner-community {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/img/jaxx-community-banner.jpg) center;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/jaxx-community-banner.jpg) center;
-	background-size: cover;
-}
-/* section styles ======================*/
 
 /* nav ======================*/
 
@@ -973,12 +868,13 @@ nav.fixed-top.scrolled,
 
 /*  icons */
 
-/*
-i {
-	font-size: 7vmin;
-	padding: 20px 30px;
+.jaxx-shield-icon {
+    filter: drop-shadow(4px 4px 3px gray);
+    width: 120px;
 }
-*/
+.jaxx-shield-icon-1 {
+    width: 120px;
+}
 .icon {
 	font-size: 50px;
 }
@@ -1014,30 +910,22 @@ i {
 .item .active {
 	margin: auto;
 }
-/* make carousel full screen */
 
-/*
-.carousel,.item {height:100%;}
-.carousel-inner{height:100%;}
-*/
+.carousel-fade .carousel-item {
+ opacity: 0;
+ transition-duration: 1s;
+ transition-property: opacity;
+}
 
 /*  footer ======================*/
 
-/* pexels */
-
-.bg-img-footer {
-	background: url(/img/jaxx-footer.jpeg) center;
-	background-size: cover;
-}
 footer li a {
 	font-size: 18px;
 }
 .footer-leaf {
 	height: 40px;
 }
-.copyright {
-	background: #ff6902;
-}
+
 /* media queries ======================*/
 
 @media (max-width: 1200px) {
@@ -1119,12 +1007,7 @@ footer li a {
 		-ms-flex-order: 12;
 		order: 12;
 	}
-	/*
-    .partner-logo {
-        height: auto;
-        width: 70%;
-    }
-*/
+
 	/* front page downloads img*/
 	.downloads-img {
 		height: auto;
@@ -1201,6 +1084,11 @@ footer li a {
 		font-size: 9vw;
 		margin-bottom: 10px;
 	}
+    .section-title {
+        font-size: 8vmin;
+        line-height: 100%;
+        letter-spacing: -1px;
+    }
 	/* cookies banner button */
 	.cc-btn {
 		border-width: 1px;
@@ -1218,13 +1106,7 @@ footer li a {
 	.p-5-sm {
 		padding: 3rem;
 	}
-/*     downlads page google play btn */
 
-	/*features device styles*/
-	.features-device {
-		height: auto;
-		width: 50%;
-	}
 	/* flex orders */
 	.o-1 {
 		-webkit-box-ordinal-group: 0;

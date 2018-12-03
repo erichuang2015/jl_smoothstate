@@ -10,12 +10,12 @@ include 'includes/header.php';
 
 <!--banner-->
 
-<div role="banner" class="container-fluid">
-    <div class="row min-700-lg">
-        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center text-light bg--features-banner p-5 m-0 scene_element scene_element--fadeindown">
-            <h1 class="page-title font-weight-bold mt-5 pt-5 scene_element scene_element--fadeinleft scene_element--delayed">Jaxx Liberty Essentials</h1>
+<div role="banner" class="container-fluid scene_element scene_element--fadeindown">
+    <div class="row min-700-lg bg--features-banner">
+        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center text-light p-5 m-0">
+            <h1 class="page-title font-weight-bold mt-5 pt-5 scene_element scene_element--fadein scene_element--delayed">Jaxx Liberty Essentials</h1>
             <hr class="hr-big border-0 bg-orange scene_element scene_element--fadeinright scene_element--delayed">
-            <h2 class="h3 font-weight-light scene_element scene_element--fadeinup scene_element--delayed">More than a wallet, we're your all-in-one digital asset platform.</h2>
+            <h2 class="h3 font-weight-light scene_element scene_element--fadeinleft scene_element--delayed">More than a wallet, we're your all-in-one digital asset platform.</h2>
         </div>
     </div>
 </div>

@@ -89,7 +89,7 @@ include 'includes/header.php';
                         <h2 class="site-title font-weight-light pb-3">Our Partners</h2>
                         <hr class="hr-big border-0 bg-orange">
                         <p class="h5 pt-2 m-0">Uniting 85+ digital assets and communities.</p>
-                        <img class="img w-50 mt-4 ds" src="/assets/img/Jaxx-Liberty-Partner-Logos-Laptop-Trans/7.png" alt="Jaxx Liberty Partners with over 85 Digital Assets and Communities.">
+                        <img class="img w-50 mt-4 ds" src="/assets/img/jaxx-laptop-partners.png" alt="Jaxx Liberty unites over 85 Digital Assets and Communities.">
                     </div>
                 </div><!--end row-->
                 

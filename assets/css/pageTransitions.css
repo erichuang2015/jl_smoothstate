@@ -33,6 +33,11 @@
   animation-name: fadeInLeft;
 }
 
+.m-scene .scene_element--zoomin {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
 .m-scene .scene_element--delayed {
   -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s; }
