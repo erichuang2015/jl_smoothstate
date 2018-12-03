@@ -22,12 +22,13 @@ include 'includes/header.php';
                     <!--jaxx liberty itunes-->
                     <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img title="iTunes Store Button" class="app-store" src="/assets/img/app-store-button.svg" alt="iTunes Store Button"/></a>
                     <!--jaxx liberty itunes-->
-                    <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="#" target="_blank"><img title="iTunes Store Button" class="chrome-logo" src="https://embedsignage.com/wp-content/uploads/2016/04/embed-signage-chromeos-web-store-button.png" alt="Chrome Web Store"/></a>
+                    <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="chrome-logo" src="https://embedsignage.com/wp-content/uploads/2016/04/embed-signage-chromeos-web-store-button.png" alt="Chrome Web Store"/></a>
                 </div><!--end button nest row--> 
                 
+                <!--desktop dropdown--> 
                 <div class="btn-group scene_element scene_element--fadeinup">
                   <h4 class="dropdown-toggle mr-2 py-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Desktop Versions</h4>
-                  <div class="dropdown-menu">
+                  <div class="dropdown-menu shadow-lg">
                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#libertyMacOSX">Mac OS X</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#libertyWindows">Windows</a>
@@ -35,8 +36,6 @@ include 'includes/header.php';
                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#libertyLinux32">Linux 32-bit</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#libertyLinux64">Linux 64-bit</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" onclick="googleAnalyticsTrigger('Chrome Extension', 'Downloads_Chrome')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank">Google Chrome</a>
                   </div>
                 </div><!--end button group-->
 
