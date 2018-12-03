@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6,
 }
 p {
 	font-size: 19px;
-	font-weight: 300;
+	font-weight: 400;
 }
 .site-title {
 	font-size: 5vw;
@@ -532,6 +532,23 @@ p {
 	background-attachment: fixed;
 }
 
+/* home styles */
+
+.card-deck .card {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+.card-deck {
+    -ms-flex-flow: column;
+    flex-flow: column;
+    }
+}
+
+.partner-logos-laptop {
+    width: 50%;
+}
+
 /*===== Features ======*/
 
 .bg--features-banner {
@@ -846,8 +863,8 @@ nav.fixed-top.scrolled,
 }
 #main .fa {
 	font-size: 10vmin;
-    font-size: 8vmin;
-	padding: 20px 30px;
+    font-size: 7vmin;
+	padding: 30px 20px;
 }
 #features .fa {
     font-size: 30px;
@@ -1054,18 +1071,14 @@ footer li a {
 		border-width: 1px;
 		width: 100%;
 	}
+    #main .fa {
+        font-size: 8.5vmin;
+        padding: 30px 10px 20px;
+    }
 	/* partner logo resize */
-	.partner-logo-home {
-		height: auto;
-		width: 70%;
-	}
-	/* download call to action heading text */
-	#cta h2 {
-		font-size: 22px;
-	}
-	.p-5-sm {
-		padding: 3rem;
-	}
+	.partner-logos-laptop {
+        width: 100%;
+    }
 
 	/* flex orders */
 	.o-1 {
@@ -1125,6 +1138,7 @@ footer li a {
 		width: 75%;
 	}
 }
+
 @media (max-width: 375px) {
  /* downloads page store logos fro iphone 5 */
 .google-play {
@@ -1134,6 +1148,8 @@ footer li a {
     width: 122px;
     }
 }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

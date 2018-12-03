@@ -22,18 +22,20 @@ include 'includes/header.php';
     </div>
 </div>
 
-<div role="banner" class="m_scene container-fluid p-2 text-secondary scene_element scene_element--fadein">
-    <div class="row d-flex min-700-lg m-3 bg-light rounded shadow-lg ">
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center bg-white p-5 o-12 scene_element scene_element--fadeinright">
+<div role="banner" class="m_scene container-fluid p-2 text-secondary scene_element scene_element--fadeinup">
+    <div class="row d-flex min-500 m-3 bg-light rounded shadow-lg ">
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12 scene_element scene_element--fadeinright">
             <h2 class="section-title font-weight-bold">Your all-in-one digital asset platform.</h2>
             <p class="h5 pt-2 m-0 text-secondary">Easily manage and exchange more than 85 digital assets including Bitcoin, Ethereum, Litecoin, and Dash.</p>
             <a href="/features.php" class="btn btn-lg btn-outline-orange mt-3">Learn More</a>
         </div>
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center min-300 p-3 scene_element scene_element--fadeinleft">
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center min-300 scene_element scene_element--fadeinleft">
+          <img class="img-full ds" src="/assets/img/jaxx-home-3-phones.png" alt="">
+<!--
            <div class="device-wrapper">
-              <div class="device" data-device="galaxyS5" data-orientation="portrait" data-color="white">
+              <div class="device ds" data-device="iPhone7" data-orientation="portrait" data-color="gold">
                 <div class="screen">
-                  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                  <div id="jaxx_carousel" class="carousel slide carousel-fade" data-ride="carousel">
                       <div class="carousel-inner">
                         <div class="carousel-item active">
                           <img class="w-100" src="/assets/img/jaxx-screenshots/iphone-6/jaxx-home.PNG" alt="First slide">
@@ -54,7 +56,6 @@ include 'includes/header.php';
                           <img class="d-block w-100" src="/assets/img/jaxx-screenshots/iphone-6/jaxx-customize.PNG" alt="Third slide">
                         </div>
                       </div>
-<!--
                       <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
@@ -63,18 +64,19 @@ include 'includes/header.php';
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>
--->
                     </div>
-                    <!--end carousel-->
+                    end carousel
                 </div>
               </div>
             </div>
+-->
             <!--end device-->
+            
         </div>
     </div><!--end row-->
     
 <!--security-->
-    <div class="row d-flex min-700-lg m-3 rounded shadow-lg scene_element scene_element--fadeinleft">
+    <div class="row d-flex min-700-lg m-3 rounded shadow-lg">
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg--home-security min-300 p-0">
             <img class="img-full" src="/assets/img/jaxx-android-girl-hand.png" alt="">
         </div>
@@ -110,7 +112,7 @@ include 'includes/header.php';
     </div><!--end row-->
 
     <!--testimonials-->
-    <div class="row d-flex min-500 m-3 rounded shadow-lg scene_element scene_element--fadeindown">
+    <div class="row d-flex min-500 m-3 relative z--1 rounded shadow-lg scene_element scene_element--fadeindown">
       <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center text-light min-500 bg--home-testimonials p-5 o-12">
           <h2 class="section-title font-weight-bold">What blockchain leaders are saying</h2>
       </div>
@@ -150,7 +152,6 @@ include 'includes/header.php';
     <div class="row d-flex bg-white min-500 m-3 rounded shadow-lg bg--home-community">
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-light min-400 p-5 o-12">
             <h2 class="section-title font-weight-bold m-0">Our Ecosystem</h2>
-            <hr class="hr-big border-0 bg-light">
             <p class="h5 pt-2 m-0">Uniting over 85 digital assets and communities.</p>
             <a class="btn btn-lg btn-outline-light mt-3" href="/community.php">Join Us</a>
         </div>
@@ -164,7 +165,7 @@ include 'includes/header.php';
             <h2 class="section-title font-weight-bold m-0">Our Friends</h2>
             <p class="h5 pt-2 m-0">Jaxx Liberty brings together a variety of blockchain projects.</p>
             <a class="btn btn-lg btn-outline-orange mt-3" href="/community.php">Learn More</a>
-            <img class="img w-50 mt-4 ds" src="/assets/img/jaxx-laptop-partners.png" alt="Jaxx Liberty Partners and Friends">
+            <img class="partner-logos-laptop mt-4 ds" src="/assets/img/jaxx-laptop-partners.png" alt="Jaxx Liberty Partners and Friends">
         </div>
     </div><!--end row-->
 
@@ -235,7 +236,6 @@ include 'includes/header.php';
         <div class="col-lg-6 bg--home-download min-300 p-4"></div>
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center bg-light min-300 p-5 o-12">
             <h2 class="section-title font-weight-bold m-0">Reclaim Your Liberty</h2>
-            <hr class="hr-big border-0 bg-navy">
             <p class="h5 pt-2 m-0">Take control of your digital life. Download Jaxx Liberty. It’s 100% free.</p>
             <a href="/downloads.php" onclick="googleAnalyticsTrigger('Downloads_Page', 'Features_CTA')">
             <button class="btn btn-lg btn-outline-orange my-3">Start Now</button>

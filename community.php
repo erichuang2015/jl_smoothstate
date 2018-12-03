@@ -13,8 +13,8 @@ include 'includes/header.php';
     <div role="banner" class="jumbotron jumbotron-fluid d-flex bg--community-banner min-700-lg p-5 mb-0 scene_element scene_element--fadeindown">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-end align-items-start text-left p-5">
-                <h3 class="knockout-home page-title font-weight-bold py-3 scene_element scene_element--fadeinup scene_element--delayed">Our Ecosystem</h3>
-                <hr class="hr-big border-0 bg-orange">
+                <h3 class="page-title font-weight-bold py-3 scene_element scene_element--fadeinleft scene_element--delayed">Our Ecosystem</h3>
+                <hr class="hr-big border-0 bg-orange scene_element scene_element--fadeinup">
                 <!--<h4 class="h1 font-weight-bold orange scene_element scene_element--fadeinup scene_element--delayed">Explore the Jaxx Liberty Community</h4>-->
             </div>
             <div class="offset-lg-6"></div>
