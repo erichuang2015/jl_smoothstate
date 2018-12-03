@@ -35,63 +35,79 @@ include 'includes/header.php';
         <!--download mobile-->
             <ul class="list-unstyled columns columns--features scene_element scene_element--fadeinup">
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-white">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-plasticine/icons8-secure.png" alt="">
-                    <h3 class="font-weight-bold mb-0">Secure</h3>
-                    <p class="border-top pt-2 mt-2">With Jaxx Liberty you're in control. Your private keys never leave your device and with strong encryption (mnemonic and password) protocols, you can enjoy peace of mind.</p>
+                    <img class="mb-2 p-0" src="/assets/img/jaxx-icons-dusk/icons8-id-verified.png" alt="">
+                    <h3 class="font-weight-bold">Secure</h3>
+                    <hr class="hr-big border-0 bg-navy">
+                    <p class="pt-2">With Jaxx Liberty you're in control. Your private keys never leave your device and with strong encryption (mnemonic and password) protocols, you can enjoy peace of mind.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-light-grey">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-outline/icons8-3d-rotate.png" alt="">
-                    <h3 class="font-weight-bold mb-0">Easy to Use</h3>
-                    <p class="border-top pt-2 mt-2">Manage and exchange your digital assets with ease, all in one place. No manual required.</p>
+                    <img class="mb-2" src="/assets/img/jaxx-icons-dusk/icons8-customer-insight.png" alt="">
+                    <h3 class="font-weight-bold">Easy to Use</h3>
+                    <hr class="hr-big border-0 bg-navy">
+                    <p class="pt-2">Manage and exchange your digital assets with ease, all in one place. No manual required.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left text-light bg-lightblue">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-plasticine/icons8-in-progress.png" alt="Jaxx Liberty Integrated Multi-Chain Block Explorer">
-                    <h3 class="font-weight-bold mb-0">Fast</h3>
-                    <p class="border-top pt-2 mt-2">Get the latest headline news, real-time market data, check your portfolio, and exchange between digital assets any time you want, almost instantly.</p>
+                    <img class="mb-2" src="/assets/img/jaxx-icons-dusk/icons8-rocket-100.png" alt="Jaxx Liberty Integrated Multi-Chain Block Explorer">
+                    <h3 class="font-weight-bold">Fast</h3>
+                    <hr class="hr-big border-0 bg-navy">
+                    <p class="pt-2">Get the latest headline news, real-time market data, check your portfolio, and exchange between digital assets any time you want, almost instantly.</p>
                 </li>
                 <li class="p-0">
                     <img class="img-full" src="/assets/img/jaxx-laptop-brick.jpg" alt="Jaxx Liberty Unified Dashboard">
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-navy text-light">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-plasticine/icons8-connect.png" alt="">
-                    <h3 class="font-weight-bold mb-0">Customizable</h3>
-                    <p class="border-top pt-2 mt-2">Drag and drop the homepage modules to create a personalized interface.</p>
+                    <img class="mb-2" src="/assets/img/jaxx-icons-dusk/icons8-best-seller.png" alt="">
+                    <h3 class="font-weight-bold">Customizable</h3>
+                    <hr class="hr-big border-0 bg-light">
+                    <p class="pt-2">Drag and drop the homepage modules to create a personalized interface.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-light">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-multiple-devices.png" alt="">
-                    <h3 class="font-weight-bold mb-0">Multi-Platform</h3>
-                    <p class="border-top pt-2 mt-2">Jaxx Liberty is available for mobile, web, and desktop. Enjoy on iOS, Android, Mac OS X, Windows, Linux, and Google Chrome.</p>
+                    <img class="mb-2" src="/assets/img/jaxx-icons-dusk/icons8-smartphone-tablet-100.png" alt="">
+                    <h3 class="font-weight-bold">Multi-Platform</h3>
+                    <hr class="hr-big border-0 bg-navy">
+                    <p class="pt-2">Jaxx Liberty is available for mobile, web, and desktop. Enjoy on iOS, Android, Mac OS X, Windows, Linux, and Google Chrome.</p>
                 </li>        
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-light-grey">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-trust-64.png" alt="">
-                    <h3 class="font-weight-bold mb-0">Trusted</h3>
-                    <p class="border-top pt-2 mt-2">Jaxx Liberty builds on the success of Jaxx Classic, one of the most popular blockchain and digital asset wallets, with millions of downloads.</p>
+                    <img class="mb-2" src="/assets/img/jaxx-icons-dusk/icons8-heart-hand.png" alt="">
+                    <h3 class="font-weight-bold">Trusted</h3>
+                    <hr class="hr-big border-0 bg-navy">
+                    <p class="pt-2">Jaxx Liberty builds on the success of Jaxx Classic, one of the most popular blockchain and digital asset wallets, with millions of downloads.</p>
                 </li>
                 <li class="p-0">
                     <img class="img-full" src="/assets/img/jaxx-multi-device-2.jpg" alt="Jaxx Liberty Portfolio">
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-lightblue text-light">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-mobile-payment.png" alt="">
-                    <h3 class="font-weight-bold mb-0">Multi-Asset</h3>
-                    <p class="border-top pt-2 mt-2">Enjoy support for more than 85 digital assets including Bitcoin, Ethereum, Litecoin, and Dash.</p>
-                </li>
-                <li class="d-flex flex-column justify-content-center align-items-start text-left bg-light-grey">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-phonelink-lock-64.png" alt="">
-                    <h3 class="font-weight-bold mb-0">Private</h3>
-                    <p class="border-top pt-2 mt-2">We don’t have access to your backup phrase or private keys, we don't collect your personal information, and you don't need to login or create an account to use Jaxx Liberty.</p>
+                    <img class="mb-2" src="/assets/img/jaxx-icons-dusk/icons8-expensive-100.png" alt="">
+                    <h3 class="font-weight-bold">Multi-Asset</h3>
+                    <hr class="hr-big border-0 bg-navy">
+                    <p class="pt-2">Enjoy support for more than 85 digital assets including Bitcoin, Ethereum, Litecoin, and Dash.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-navy text-light">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-exchange-64.png" alt="">
-                    <h3 class="font-weight-bold mb-0">Built in exchange</h3>
-                    <p class="border-top pt-2 mt-2">Third-party apps like ShapeShift add seamless peer-to-peer exchange between supported assets (Changelly coming soon).</p>
+                    <img class="mb-2" src="/assets/img/jaxx-icons-dusk/icons8-phonelink-lock-100.png" alt="">
+                    <h3 class="font-weight-bold">Private</h3>
+                    <hr class="hr-big border-0 bg-light">
+                    <p class="pt-2">We don’t have access to your backup phrase or private keys, we don't collect your personal information, and you don't need to login or create an account to use Jaxx Liberty.</p>
+                </li>
+                <li class="d-flex flex-column justify-content-center align-items-start text-left bg-light">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-dusk/icons8-currency-exchange.png" alt="">
+                    <h3 class="font-weight-bold">Built in exchange</h3>
+                    <hr class="hr-big border-0 bg-navy">
+                    <p class="pt-2">Third-party apps like ShapeShift add seamless peer-to-peer exchange between supported assets (Changelly coming soon).</p>
                 </li>
                  <li class="p-0">
                     <img class="img-full" src="/assets/img/jaxx-iphone-on-macbook.jpg" alt="Jaxx Liberty Portfolio">
                 </li>
+                <li class="d-flex flex-column justify-content-center align-items-start text-left bg-light-grey">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-dusk/icons8-flow-chart.png" alt="">
+                    <h3 class="font-weight-bold">12-Word Backup</h3>
+                    <hr class="hr-big border-0 bg-navy">
+                    <p class="pt-2">Get started with an industry-standard 12-word backup phrase that is portable to and from other wallets.</p>
+                </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-white text-light-grey">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-workflow-64.png" alt="">
-                    <h3 class="font-weight-bold mb-0">User Friendly</h3>
-                    <p class="border-top pt-2 mt-2">Built with simplicity in mind, Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.</p>
+                    <img class="mb-2" src="/assets/img/jaxx-icons-dusk/icons8-us-64.png" alt="">
+                    <h3 class="font-weight-bold">User Friendly</h3>
+                    <hr class="hr-big border-0 bg-navy">
+                    <p class="pt-2">Built with simplicity in mind, Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-lightblue text-light">
                     <img class="mb-2" src="/assets/img/jaxx-icons-color/icons8-technical-support.png" alt="">

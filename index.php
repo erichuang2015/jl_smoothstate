@@ -30,7 +30,7 @@ include 'includes/header.php';
             <a href="/features.php" class="btn btn-lg btn-outline-orange mt-3">Learn More</a>
         </div>
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center min-300 scene_element scene_element--fadeinleft">
-          <img class="img-full ds" src="/assets/img/jaxx-home-3-phones.png" alt="">
+          <img class="img-full ds" src="/assets/img/jaxx-home-3-phones.png" alt="Jaxx Liberty: Your all-in-one digital asset platform.">
 <!--
            <div class="device-wrapper">
               <div class="device ds" data-device="iPhone7" data-orientation="portrait" data-color="gold">
@@ -76,7 +76,7 @@ include 'includes/header.php';
     </div><!--end row-->
     
 <!--security-->
-    <div class="row d-flex min-700-lg m-3 rounded shadow-lg">
+    <div class="row d-flex min-500 m-3 rounded shadow-lg">
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg--home-security min-300 p-0">
             <img class="img-full" src="/assets/img/jaxx-android-girl-hand.png" alt="">
         </div>
@@ -89,7 +89,7 @@ include 'includes/header.php';
     </div><!--end row-->
     
     <!--multi platform + download-->
-    <div id="sec-2" class="row d-flex min-700-lg bg-white m-3 rounded shadow-lg scene_element scene_element--fadeinright">
+    <div id="sec-2" class="row d-flex min-500 bg-white m-3 rounded shadow-lg scene_element scene_element--fadeinright">
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12">
             <h2 class="section-title font-weight-bold m-0">Available on mobile, desktop and web.</h2>
             <p class="h5 pt-2 m-0 text-secondary">Download for Android, iOS, Mac OS X, Windows, Linux, & Google Chrome.</p>
