@@ -104,7 +104,7 @@ include 'includes/header.php';
                     <p class="pt-2">Get started with an industry-standard 12-word backup phrase that is portable to and from other wallets.</p>
                 </li>
                 <li class="d-flex flex-column justify-content-center align-items-start text-left bg-white text-light-grey">
-                    <img class="mb-2" src="/assets/img/jaxx-icons-dusk/icons8-us-64.png" alt="">
+                    <img class="mb-2" src="/assets/img/jaxx-icons-dusk/icons8-workflow.png" alt="">
                     <h3 class="font-weight-bold">User Friendly</h3>
                     <hr class="hr-big border-0 bg-navy">
                     <p class="pt-2">Built with simplicity in mind, Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.</p>
